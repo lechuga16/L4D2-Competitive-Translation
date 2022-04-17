@@ -1,0 +1,35 @@
+"Phrases"
+{
+	"spechud"
+	{
+			"es"		"<{olive}HUD{default}> El Espectador HUD esta %s."
+	}
+	"tankhud"
+	{
+			"es"		"<{olive}HUD{default}> El Tank HUD esta %s."
+	}
+	"spechint"
+	{
+			"es"		"<{olive}HUD{default}> Escriba {green}!spechud{default} en el chat para alternar el {blue}Espectador HUD{default}."
+	}
+	"tankhint"
+	{
+			"es"		"<{olive}HUD{default}> Escriba {green}!spechud{default} en el chat para alternar el {blue}Espectador HUD{default}."
+	}
+	"stats1"
+	{
+			"es"		"Golpes: %i | Rocas: %i | Objetos: %i"
+	}
+	"stats2"
+	{
+			"es"		"           Daño Total: %i"
+	}
+	"on"
+	{
+			"es"		"blue}activado{default}"
+	}
+	"off"
+	{
+			"es"			"{red}desactivado{default}"
+	}
+}

@@ -1,2 +1,7 @@
 # L4D2-Competitive-Es-translation
- translation of competitive plugins into Spanish
+
+[EN] [translation](https://translate.google.com/translate?sl=es&tl=en&u=https://github.com/lechuga16/L4D2-Competitive-Es-translation)
+
+# Plugins traducidos:
+- readyup.sp: .phrases.txt
+- spechud.sp: .phrases.txt, .sp, .smx
