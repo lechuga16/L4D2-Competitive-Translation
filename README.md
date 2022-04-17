@@ -7,5 +7,5 @@
 - spechud.sp: .phrases.txt, .sp, .smx
 
 # Creditos:
-- [lechuga] (https://s.team/p/dtr-vcmc)
-- [hacku) (https://s.team/p/cknf-hhdq)
+- [lechuga](https://s.team/p/dtr-vcmc) 
+- [hacku](https://s.team/p/cknf-hhdq)
