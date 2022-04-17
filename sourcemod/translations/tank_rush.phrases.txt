@@ -1,0 +1,15 @@
+"Phrases"
+{
+	"freeze"
+	{
+		"en"		"{red}[{default}NoTankRush{red}] {red}Tank {default}spawned. {olive}Freezing {default}distance points!"
+	}
+	"unfreeze"
+	{
+		"en"		"{red}[{default}NoTankRush{red}] {red}Tank {default}spawned. {olive}Freezing {default}distance points!"
+	}
+	"saferoom"
+	{
+		"en"		"{red}[{default}NoTankRush{red}] {red}Survivors {default}made it to the saferoom. {olive}Unfreezing {default}distance points!"
+	}
+}

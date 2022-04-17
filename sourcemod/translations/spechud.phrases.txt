@@ -1,0 +1,35 @@
+"Phrases"
+{
+	"spechud"
+	{
+			"en"		"<{olive}HUD{default}> Spectator HUD is now %s."
+	}
+	"tankhud"
+	{
+			"en"		"<{olive}HUD{default}> Tank HUD is now %s."
+	}
+	"spechint"
+	{
+			"en"		"<{olive}HUD{default}> Type {green}!spechud{default} into chat to toggle the {blue}Spectator HUD{default}."
+	}
+	"tankhint"
+	{
+			"en"		"<{olive}HUD{default}> Type {green}!tankhud{default} into chat to toggle the {red}Tank HUD{default}."
+	}
+	"stats1"
+	{
+			"en"		"Punch: %i | Rock: %i | Hittable: %i"
+	}
+	"stats2"
+	{
+			"en"		"           Total damage: %i"
+	}
+	"on"
+	{
+			"en"		"{blue}on{default}"
+	}
+	"off"
+	{
+			"en"			"{red}off{default}"
+	}
+}
