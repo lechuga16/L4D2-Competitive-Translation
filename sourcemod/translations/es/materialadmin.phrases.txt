@@ -1,0 +1,628 @@
+"Phrases"
+{
+	"AdminMenu_Main"
+	{
+		"es"    		"Materialbans"
+	}
+	"OnlineTitle"
+	{
+		"es"   		 	"Jugadores en linea"
+	}
+	"OfflineTitle"
+	{
+		"es"    		"Jugadores fuera de linea"
+	}
+	"ListTitle"
+	{
+		"es"    		"Los jugadores castigados en el servidor."
+	}
+	"SettingTitle"
+	{
+		"es"    		"Ajustes"
+	}
+	"SelectPlayerTitle"
+	{
+		"es"    		"Seleccionar jugador"
+	}
+	"SelectTimeTitle"
+	{
+		"es"    		"Seleccionar hora"
+	}
+	"SelectReasonTitle"
+	{
+		"es"    		"Seleccionar motivo"
+	}
+	"SetTitle"
+	{
+		"es"    		"Seleccione"
+	}
+	"ReheshAdmin"
+	{
+		"es"    		"Actualizar la lista de administradores"
+	}
+	"ClearHistory"
+	{
+		"es"    		"Borrar historial"
+	}
+	"ReloadConfig"
+	{
+		"es"    		"Recargar configuracion"
+	}
+	"ReloadConnect"
+	{
+		"es"    		"Recargar conectar"
+	}
+	"SetMute"
+	{
+		"es"    		"Establecer Mute"
+	}
+	"SetBan"
+	{
+		"es"    		"Establecer Ban"
+	}
+	"Steam"
+	{
+		"es"    		"Steam"
+	}
+	"Ip"
+	{
+		"es"    		"Ip"
+	}
+	"Mute"
+	{
+		"es"    		"Mute"
+	}
+	"Gag"
+	{
+		"es"    		"Gag"
+	}
+	"Silence"
+	{
+		"es"   		 	"Silence"
+	}
+	"unMute"
+	{
+		"es"    		"Eliminar Mute"
+	}
+	"unGag"
+	{
+		"es"    		"Eliminar Gag"
+	}
+	"unSilence"
+	{
+		"es"    		"Eliminar Silence"
+	}
+	"No players history"
+	{
+		"es"    		"Sin historial de jugadores"
+	}
+	"All"
+	{
+		"es"			"Todos"
+	}
+	"CT"
+	{
+		"es"			"CT"
+	}
+	"T"
+	{
+		"es"			"T"
+	}
+	"Blue"
+	{
+		"es"			"Blue"
+	}
+	"Red"
+	{
+		"es"			"Red"
+	}
+	"Clients"
+	{
+		"es"			"Jugadores"
+	}
+	"no target"
+	{
+		"es"			"Sin objetivo"
+	}
+	"No time"
+	{
+		"es"			"No hay tiempo"
+	}
+	"Show"
+	{
+		"es"			"Mostrar"
+	}
+	"Run"
+	{
+		"es"			"Ejecutar"
+	}
+	"ListInfoTitle"
+	{
+		"es"			"Informacion sobre"
+	}
+	"Time"
+	{
+		"es"			"Tiempo"
+	}
+	"Reason"
+	{
+		"es"			"Razon"
+	}
+	"TimeCreated"
+	{
+		"es"			"Tiempo creado"
+	}
+	"TimeEnds"
+	{
+		"es"			"El tiempo termina"
+	}
+	"SettingAdminTitle"
+	{
+		"es"			"Administrador de configuracion"
+	}
+	"add admin"
+	{
+		"es"			"Agregar administrador"
+	}
+	"del admin"
+	{
+		"es"			"Eliminar administrador"
+	}
+	"No Access setting admin"
+	{
+		"es"			"No tienes permiso"
+	}
+	"AddFlagAdminTitle"
+	{
+		"es"			"Seleccione la bandera"
+	}
+	"z flag"
+	{
+		"es"			"root (Todos los accesos por defecto)"
+	}
+	"b flag"
+	{
+		"es"			"Administrador generico"
+	}
+	"a flag"
+	{
+		"es"			"Espacio reservado"
+	}
+	"c flag"
+	{
+		"es"			"Expulsar usuario"
+	}
+	"d flag"
+	{
+		"es"			"Prohibir usuario"
+	}
+	"e flag"
+	{
+		"es"			"Anular prohibicion"
+	}
+	"f flag"
+	{
+		"es"			"Matar"
+	}
+	"g flag"
+	{
+		"es"			"Cambiar el mapa"
+	}
+	"h flag"
+	{
+		"es"			"Cambiar ConVar"
+	}
+	"i flag"
+	{
+		"es"			"Cambiar configuracion"
+	}
+	"j flag"
+	{
+		"es"			"Privilegios especiales de chat"
+	}
+	"k flag"
+	{
+		"es"			"Votacion"
+	}
+	"l flag"
+	{
+		"es"			"Contraseña del servidor"
+	}
+	"m flag"
+	{
+		"es"			"Usar RCON"
+	}
+	"n flag"
+	{
+		"es"			"Cambiar sv_cheats y comandos relacionados"
+	}
+	"o flag"
+	{
+		"es"			"Bandera o"
+	}
+	"p flag"
+	{
+		"es"			"Bandera p"
+	}
+	"q flag"
+	{
+		"es"			"Bandera q"
+	}
+	"r flag"
+	{
+		"es"			"Bandera r"
+	}
+	"s flag"
+	{
+		"es"			"Bandera s"
+	}
+	"t flag"
+	{
+		"es"			"Bandera t"
+	}
+	"set flags"
+	{
+		"es"			"Elegi las banderas, adelante"
+	}
+	"DelAdminTitle"
+	{
+		"es"			"Ver para eliminar"
+	}
+	"del all"
+	{
+		"es"			"del todo"
+	}
+	"del server"
+	{
+		"es"			"Solo en este servidor"
+	}
+	"Permanent"
+	{
+		"es"			"Permanente"
+	}
+	"Banned Admin panel"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s},{5:s},{6:s}"
+		"es"			"Fuiste baneado por el administrador: {1}\nRazon: {2}\nFecha: {3}\nFinaliza: {4}\nDuracion: {5}\nLea mas en el sitio web: {6}"
+	}
+	"Banned panel"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s},{5:s}"
+		"es"			"Fuiste baneado en este servidor\nRazon: {1}\nFecha {2}\nFinaliza: {3}\nDuracion: {4}\nLea mas en el sitio web: {5}"
+	}
+	"Banned Admin"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s},{5:s}"
+		"es"			"Fuiste baneado por el administrador: {1}\nRazon: {2}\nFecha {3}\nDuracion: {4}\nLea mas en el sitio web: {5}"
+	}
+	"Banned"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s}"
+		"es"			"Fuiste baneado en este servidor\nRazon: {1}\nFecha {2}\nDuracion: {3}\nLea mas en el sitio web: {4}"
+	}
+	"Banneds"
+	{
+		"es"			"Te prohibieron la entrada"
+	}
+	"Title Banned"
+	{
+		"es"			"Usted fue prohibido"
+	}
+	"No ends"
+	{
+		"es"			"Prohibicion permanente"
+	}
+	"Server"
+	{
+		"es"			"Servidor"
+	}
+	"Admin"
+	{
+		"es"			"Administracion"
+	}
+	"No reason"
+	{
+		"es"			"Ninguna razon"
+	}
+	"temporarily"
+	{
+		"es"			"temporalmente"
+	}
+	"Days"
+	{
+		"es"			"dias"
+	}
+	"Hours"
+	{
+		"es"			"horas"
+	}
+	"Minutes"
+	{
+		"es"			"minutos"
+	}
+	"Sec"
+	{
+		"es"			"seg"
+	}
+	"Admin Expire"
+	{
+		"#format"		"{1:s}"
+		"es"			"Los privilegios de validez expiran {1}"
+	}
+	"Clear history"
+	{
+		"es"    		"Borrar el historial"
+	}
+	"Reload config"
+	{
+		"es"    		"Recargar configuracion ok"
+	}
+	"Reload connect ok"
+	{
+		"es"    		"Recarga de la conexion ok"
+	}
+	"Reload connect no"
+	{
+		"es"    		"Recarga de la conexion no"
+	}
+	"Failed to bd"
+	{
+		"#format"		"{1:s}"
+		"es"    		"Fallo al añadir a la base de datos {1}. La operacion se escribe en la copia de seguridad, cuando se reanude la conexion, los datos se enviaran a la base de datos"
+	}
+	"Added to bd"
+	{
+		"#format"		"{1:s}"
+		"es"    		"Se agrego a la base de datos {1}"
+	}
+	"Failed to player"
+	{
+		"es"    		"Jugador no encontrado"
+	}
+	"Own reason"
+	{
+		"#format"		"{1:s}"
+		"es"    		"Razon propia:({1}). Agregar"
+	}
+	"Say reason"
+	{
+		"es"    		"Escribe el motivo de un chat"
+	}
+	"ReheshAdminOk"
+	{
+		"es"    		"Lista de administradores actualizada"
+	}
+	"No Client Game"
+	{
+		"es"    		"El jugador se fue"
+	}
+	"Yes report"
+	{
+		"#format"		"{1:s}"
+		"es"    		"Informe sobre {1} enviado"
+	}
+	"No admin"
+	{
+		"es"    		"Esta inmunidad administrativa"
+	
+	}
+	"No Access unban time 0"
+	{
+		"es"    		"Tiempo permanente permitido Admins con bandera UNBAN"
+	}
+	"No Access time 0"
+	{
+		"es" 			"Usted no tiene acceso a la prohibicion ban/mute"
+	}
+	"No Access max time"
+	{
+		"#format"		"{1:d}"
+		"es" 			"Tiempo maximo de ban/mute {1}" 
+	}
+	"No Access all"
+	{
+		"es"    		"Seleccionar todos los jugadores permitidos Admins con bandera ROOT"
+	}
+	"Invalid time"
+	{
+		"#format"		"{1:d}"
+		"es"    		"Hora invalida"
+	}
+	"No active bans"
+	{
+		"#format"		"{1:s}"
+		"es"    		"No se han encontrado prohibiciones activas para ese filtro {1}"
+	}
+	"Is already banned"
+	{
+		"#format"		"{1:s}"
+		"es"    		"{1} ya esta prohibido"
+	}
+	"No access mute"
+	{
+		"#format"		"{1:s}"
+		"es"    		"No tienes permisos para mute {1}"
+	}
+	"No access un mute"
+	{
+		"#format"		"{1:s}"
+		"es"    		"No tienes permisos para unmute {1}"
+	}
+	"No access un ban"
+	{
+		"#format"		"{1:s}"
+		"es"    		"No tienes permisos para unban {1}"
+	}
+	"No matching client"
+	{
+		"es"			"No se ha encontrado ningun cliente coincidente"
+	}
+	"Target gag"
+	{
+		"#format"		"{1:s},{2:s}"
+		"es"			"Has desactivado el chat de texto en {1} porque ({2})"
+	}
+	"Target mute"
+	{
+		"#format"		"{1:s},{2:s}"
+		"es"			"Has desactivado el chat de voz en {1} porque ({2})"
+	}
+	"Target silence"
+	{
+		"#format"		"{1:s},{2:s}"
+		"es"			"You have disabled the voice and text chat to {1} because ({2})"
+	}
+	"Target ungag"
+	{
+		"es"			"Ha incluido un chat de texto"
+	}
+	"Target unmute"
+	{
+		"es"			"Has activado el chat de voz"
+	}
+	"Target unsilence"
+	{
+		"es"			"Has activado el chat de voz y texto"
+	}
+	"Target no text chat"
+	{
+		"#format"		"{1:s},{2:s}"
+		"es"			"Has desactivado el chat de texto en {1} porque ({2})"
+	}
+	"prifix"
+	{
+		"es"			"[MA]"
+	}
+	"say imune"
+	{
+		"es"			"Escriba los numeros del 0 al 100 de inmunidad para la administracion"
+	}
+	"say set imune next pass"
+	{
+		"#format"		"{1:s}"
+		"es"			"La inmunidad {1} es aceptada, ahora escriba la contraseña para el administrador"
+	}
+	"Failed imune"
+	{
+		"es"			"La inmunidad tiene que consistir solo en cifras de 0 a 100"
+	}
+	"say set pass next expire"
+	{
+		"#format"		"{1:s}"
+		"es"			"La contraseña {1} es aceptada, ahora escriba el tiempo de administracion (min.)"
+	}
+	"Failed expire"
+	{
+		"es"			"El tiempo no debe ser inferior a 0" 
+	}
+	"say set expire"
+	{
+		"#format"		"{1:s}"
+		"es"			"Tiempo de administracion ({1}) aceptado"
+	}
+	"Failed add admin"
+	{
+		"#format"		"{1:s}"
+		"es"			"Fallo al añadir un administrador a {1}"
+	}
+	"Ok add admin bd"
+	{
+		"#format"		"{1:s},{2:s}"
+		"es"			"Administrador añadido (login - '{1}', una contraseña - '{2}')"
+	}
+	"No admin sb"
+	{
+		"#format"		"{1:s}"
+		"es"			"{1} no es el administrador del sistema"
+	}
+	"Ok add admin server"
+	{
+		"#format"		"{1:s}"
+		"es"			"El administrador {1} ha sido añadido al servidor"
+	}
+	"Failed del admin"
+	{
+		"#format"		"{1:s}"
+		"es"			"Fallo en la eliminacion del administrador {1}"
+	}
+	"Ok del admin"
+	{
+		"#format"		"{1:s}"
+		"es"			"Administrador {1} eliminado con exito"
+	}
+	"Failed to player admin"
+	{
+		"es"			"El jugador ya es Admin"
+	}
+	"Failed flag pust"
+	{
+		"es"			"Hay que especificar las banderas"
+	}
+	"Failed flag"
+	{
+		"es"			"Banderas especificadas incorrectamente (lista de banderas [zbacdefghijklmnopqrst])"
+	}
+	"Failed steam"
+	{
+		"es"			"Steam Invalido"
+	}
+	"Failed ip"
+	{
+		"es"			"IP invalida"
+	}
+	"Failed to player no admin"
+	{
+		"es"			"El jugador no es un administrador"
+	}
+	"Update Version"
+	{
+		"#format"		"{1:s},{2:s}"
+		"es"			"Actualizar el plug-in materialadmin, la ultima version de {1} aqui {2}"
+	}
+	"Banned show"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s}"
+		"es"			"{1} prohibido {2} a {3} porque ({4})"
+	}
+	"UnBanned show"
+	{
+		"#format"		"{1:s},{2:s}"
+		"es"			"{1} UnBan {2}"
+	}
+	"Gag show"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s}"
+		"es"			"{1} deshabilito el chat de texto {2} en {3} por una razon ({4})"
+	}
+	"Mute show"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s}"
+		"es"			"{1} deshabilito el chat de voz {2} en {3} por una razon ({4})"
+	}
+	"Silence show"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s}"
+		"es"			"{1}desactivo el chat de voz y texto a {3} {2} porque ({4})"
+	}
+	"UnGag show"
+	{
+		"#format"		"{1:s},{2:s}"
+		"es"			"{1} incluido chat de texto {2}"
+	}
+	"UnMute show"
+	{
+		"#format"		"{1:s},{2:s}"
+		"es"			"{1}incluido el chat de voz {2}"
+	}
+	"UnSilence show"
+	{
+		"#format"		"{1:s},{2:s}"
+		"es"			"{1}incluido el chat de voz y texto {2}"
+	}
+
+	"WarningCount"
+	{
+		"#format"		"{1:d}"
+		"es"			"Advertencias: {1}"
+	}
+}
