@@ -1,0 +1,30 @@
+"Phrases"
+{
+	"Announce_Title"
+	{
+		"#format"	"{1:s}"
+		"en"		"[{green}!{default}] {blue}Datos {default}del {blue}Tanque {default}({olive}{1}{default})"
+	}
+	
+	// CSayText parece ser asíncrono o a través de un flujo de texto..., lo que sea cuesta una cantidad de tiempo aleatoria.
+	// Por una razón desconocida el apilamiento de etiquetas de color puede ralentizar cierto procesamiento del mensaje.
+	// Para imprimir los mensajes en un orden adecuado, se deben añadir etiquetas adicionales delante.
+	
+	"Announce_TankAttack"
+	{
+		"#format"	"{1:d},{2:d},{3:d}"
+		"en"		"{red}{green}> {default}Golpe : {red}{1} {green}/ {default}Roca : {red}{2} {green}/ {default}Golpeables: {red}{3}"
+	}
+	
+	"Announce_AttackResult"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"{blue}{blue}{green}> {default}Incapacitaciones: {olive}{1} {green}/ {default}Muertes: {olive}{2} {blue}Supervivientes"
+	}
+	
+	"Announce_Summary"
+	{
+		"#format"	"{1:s},{2:d}"
+		"en"		"{lightgreen}{lightgreen}{lightgreen}{green}> {default}Duración: {lightgreen}{1} {green}/ {default}Daño total: {lightgreen}{2}"
+	}
+}

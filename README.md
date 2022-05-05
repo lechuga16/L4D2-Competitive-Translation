@@ -5,6 +5,8 @@
 # Plugins traducidos:
 - readyup: .phrases.txt
 - spechud: .phrases.txt, .sp, .smx
+- materialadmin.phrases: .phrases.txt
+- l4d2_tank_facts_announce.phrases: .phrases.txt, .sp, .smx
 
 # Creditos:
 - [lechuga](https://s.team/p/dtr-vcmc) 
