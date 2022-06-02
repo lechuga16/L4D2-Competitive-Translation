@@ -13,7 +13,7 @@
 	"Announce_TankAttack"
 	{
 		"#format"	"{1:d},{2:d},{3:d}"
-		"en"		"{red}{green}> {default}Golpe : {red}{1} {green}/ {default}Roca : {red}{2} {green}/ {default}Golpeables: {red}{3}"
+		"en"		"{red}{green}> {default}Golpe : {red}{1} {green}/ {default}Roca : {red}{2} {green}/ {default}Objetos: {red}{3}"
 	}
 	
 	"Announce_AttackResult"
