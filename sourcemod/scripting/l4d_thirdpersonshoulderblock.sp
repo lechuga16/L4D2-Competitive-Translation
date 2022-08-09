@@ -2,7 +2,7 @@
 #pragma newdecls required
 
 #include <sourcemod>
-#include <left4dhooks>
+#include <left4dhooks_silver>
 #include <colors>
 #define PLUGIN_VERSION "1.5"
 #define PREFIX "{blue}[{default}!{blue}]{default}"
@@ -48,8 +48,8 @@ public Action CheckClients(Handle timer)
 		{
 			if (IsClientInGame(iClientIndex) && !IsFakeClient(iClientIndex))
 			{
-				int L4D_TEAM_CLIENT = GetClientTeam(iClientIndex);
-				if (L4D_TEAM_CLIENT == L4D_TEAM_SURVIVOR || L4D_TEAM_CLIENT == L4D_TEAM_INFECTED)	// Only query clients on survivor or infected team, ignore spectators.
+				int l4d_team_client = GetClientTeam(iClientIndex);
+				if (l4d_team_client == L4D_TEAM_SURVIVOR || l4d_team_client == L4D_TEAM_INFECTED)	// Only query clients on survivor or infected team, ignore spectators.
 				{
 					QueryClientConVar(iClientIndex, "c_thirdpersonshoulder", QueryClientConVarCallback);
 				}
