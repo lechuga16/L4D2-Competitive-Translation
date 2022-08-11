@@ -5,7 +5,6 @@
 #include <left4dhooks_silver>
 #include <colors>
 #define PLUGIN_VERSION "1.5"
-#define PREFIX "{blue}[{default}!{blue}]{default}"
 
 ConVar	Cvar_Enabled;
 
@@ -69,7 +68,7 @@ public void QueryClientConVarCallback(QueryCookie cookie,int client, ConVarQuery
 
 		{
 			ChangeClientTeam(client, L4D_TEAM_SPECTATOR);
-			CPrintToChat(client, "%s %t", "Cvar invalid", PREFIX);
+			CPrintToChat(client, "%t", "Cvar invalid");
 		}
 		/* If the ConVar was found on the client, but is not set to either "false" or "0",
 		 * kick the client as well, as he might be using thirdpersonshoulder.
@@ -77,7 +76,7 @@ public void QueryClientConVarCallback(QueryCookie cookie,int client, ConVarQuery
 		else if (!StrEqual(cvarValue, "false") && !StrEqual(cvarValue, "0"))
 		{
 			ChangeClientTeam(client, L4D_TEAM_SPECTATOR);
-			CPrintToChat(client, "%t", "Cvar value 1", PREFIX);
+			CPrintToChat(client, "%t", "Cvar value 1");
 		}
 	}
 }

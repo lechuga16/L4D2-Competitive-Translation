@@ -3,76 +3,76 @@
 // The following uses bracket style color tags (see colors.inc)
 	"PanelHide"
 	{
-		"es"		"[{olive}Readyup{default}] El panel ahora esta {red}apagado{default}"
+		"es"		"{blue}[{default}Readyup{blue}]{default} El panel ahora esta {red}apagado{default}"
 	}
 	
 	"PanelShow"
 	{
-		"es"		"[{olive}Readyup{default}] El panel ahora esta {blue}encendido{default}"
+		"es"		"{blue}[{default}Readyup{blue}]{default} El panel ahora esta {blue}encendido{default}"
 	}
 	
 	"ForceStartAdmin"
 	{
 		"#format"	"{1:N}"
-		"es"		"[{green}!{default}] {blue}El inicio {default}del juego es {green}forzado {default}por el {blue}Administrador {default}({olive}{1}{default})"
+		"es"		"[{green}!{default}] {blue}El inicio {default}del juego es {green}forzado {default}por {olive}{1}{default}"
 	}
 	
 	"VoteInProgress"
 	{
-		"es"		"[{olive}Readyup{default}] Hay {olive}una votacion {green}en curso{default}."
+		"es"		"{blue}[{default}Readyup{blue}]{default} Hay {olive}una votacion {green}en curso{default}."
 	}
 	
 	"VoteDelay"
 	{
 		"#format"	"{1:d}"
-		"es"		"[{olive}Readyup{default}] Espere otros {blue}{1}s {default}para llamar a votacion."
+		"es"		"{blue}[{default}Readyup{blue}]{default} Espere otros {blue}{1}s {default}para llamar a votacion."
 	}
 
 	"DisruptReadyStatus"
 	{
 		"#format"	"{1:N}"
-		"es"		"{default}[{green}!{default}] {green}¡Cuenta regresiva cancelada! {default}({teamcolor}{1} {green}no esta preparado{default})"
+		"es"		"{blue}[{default}Readyup{blue}]{default} {green}Cuenta regresiva cancelada por {teamcolor}{1}{default}"
 	}
 	
 	"DisruptTeamShuffle"
 	{
 		"#format"	"{1:N}"
-		"es"		"{default}[{green}!{default}] {green}¡Cuenta regresiva cancelada! {default}({teamcolor}{1} {olive} se cambio de equipo{default})"
+		"es"		"{blue}[{default}Readyup{blue}]{default} {green¡Cuenta regresiva cancelada, {default}({teamcolor}{1} {olive} se cambio de equipo{default})"
 	}
 	
 	"DisruptPlayerDisc"
 	{
 		"#format"	"{1:N}"
-		"es"		"{default}[{green}!{default}] {green}¡Cuenta regresiva cancelada! {default}({teamcolor}{1} {green}se a desconectado{default})"
+		"es"		"{blue}[{default}Readyup{blue}]{default} {green}Cuenta regresiva cancelada, {default}({teamcolor}{1} {green}se a desconectado{default})"
 	}
 	
 	"DisruptForceStartAbort"
 	{
 		"#format"	"{1:N}"
-		"es"		"{default}[{green}!{default}] {green}¡Inicio forzado cancelado! {default}({olive}{1}{green}{default})"
+		"es"		"{blue}[{default}Readyup{blue}]{default} {green}Inicio forzado cancelado por {olive}{1}{default}"
 	}
 	
 	
 // The following are not allowed to use any color tag
 	"HintReady"
 	{
-		"es"		"Estas preparado\n ========== \nEscribe !unready o Presiona F2"
+		"es"		"Estas preparado\n ========== \nPresiona F1 para estar preparado\nPresiona F2 para cancelar"
 	}
 	
 	"HintUnready"
 	{
-		"es"		"No estas preparado\n ========== \nEscribe !ready o Presiona F1"
+		"es"		"No estas preparado\n ========== \nPresiona F1 para estar preparado\nPresiona F2 para cancelar"
 	}
 	
 	"LiveCountdownBegin"
 	{
-		"es"		"¡Vamos a iniciar!\n ========== \nEscribe !unready o Presiona F2"
+		"es"		"¡Vamos a iniciar!\n ========== \nPresiona F1 para estar preparado\nPresiona F2 para cancelar"
 	}
 	
 	"LiveCountdown"
 	{
 		"#format"	"{1:d}"
-		"es"		"Iniciando en: {1}\n ========== \nEscribe !unready o Presiona F2"
+		"es"		"Iniciando en: {1}\n ========== \nPresiona F1 para estar preparado\nPresiona F2 para cancelar"
 	}
 	
 	"LiveCountdownCancelled"

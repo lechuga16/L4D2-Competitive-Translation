@@ -2,14 +2,14 @@
 {
 	"freeze"
 	{
-		"es"		"{red}[{default}NoTankRush{red}] {red}El Tank {default}ha aparecido. {olive}¡Congelando {default}puntaje!"
+		"es"		"{blue}[{default}NoTankRush{blue}]{default} {red}El Tank {default}ha aparecido. {olive}¡Congelando {default}puntaje!"
 	}
 	"unfreeze"
 	{
-		"es"		"{red}[{default}NoTankRush{red}] {red}El Tank {default}esta muerto. {olive}¡Descongelando {default}puntaje!"
+		"es"		"{blue}[{default}NoTankRush{blue}]{default} {red}El Tank {default}esta muerto. {olive}¡Descongelando {default}puntaje!"
 	}
 	"saferoom"
 	{
-		"es"		"{red}[{default}NoTankRush{red}] {red}Los supervivientes {default}llegaron al refugio. {olive}¡Descongelando {default}puntaje!"
+		"es"		"{blue}[{default}NoTankRush{blue}]{default} {red}Los supervivientes {default}llegaron al refugio. {olive}¡Descongelando {default}puntaje!"
 	}
 }

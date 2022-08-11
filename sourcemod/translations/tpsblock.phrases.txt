@@ -2,12 +2,10 @@
 {
 	"Cvar invalid"
 	{
-		"#format"	"{1:s}"
-		"en"		"{1} The command {olive}c_thirdpersonshoulder{default} be invalid or protected."
+		"en"		"{blue}[{default}!{blue}]{default} The command {olive}c_thirdpersonshoulder{default} be invalid or protected."
 	}
 	"Cvar value 1"
 	{
-		"#format"	"{1:s}"
-		"en"		"{1} In order to play enter {olive}c_thirdpersonshoulder 0{default} on your console."
+		"en"		"{blue}[{default}!{blue}]{default} In order to play enter {olive}c_thirdpersonshoulder 0{default} on your console."
 	}
 }

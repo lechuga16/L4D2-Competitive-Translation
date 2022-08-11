@@ -2,19 +2,19 @@
 {
 	"spechud"
 	{
-			"es"		"<{olive}HUD{default}> El Espectador HUD esta %s."
+			"es"		"{blue}[{default}HUD{blue}]{default} El Espectador HUD esta %s."
 	}
 	"tankhud"
 	{
-			"es"		"<{olive}HUD{default}> El Tank HUD esta %s."
+			"es"		"{blue}[{default}HUD{blue}]{default} El Tank HUD esta %s."
 	}
 	"spechint"
 	{
-			"es"		"<{olive}HUD{default}> Escriba {green}!spechud{default} en el chat para alternar el {blue}Espectador HUD{default}."
+			"es"		"{blue}[{default}HUD{blue}]{default} Escribe {green}!spechud{default} en el chat para alternar el {blue}HUD del Espectador{default}."
 	}
 	"tankhint"
 	{
-			"es"		"<{olive}HUD{default}> Escriba {green}!spechud{default} en el chat para alternar el {blue}Espectador HUD{default}."
+			"es"		"{blue}[{default}HUD{blue}]{default} Escribe {green}!tankhud{default} en el chat para alternar el {blue}HUD del Tanque{default}."
 	}
 	"stats1"
 	{
@@ -26,10 +26,10 @@
 	}
 	"on"
 	{
-			"es"		"blue}activado{default}"
+			"es"		"{blue}activado{default}"
 	}
 	"off"
 	{
-			"es"			"{red}desactivado{default}"
+			"es"		"{red}desactivado{default}"
 	}
 }
