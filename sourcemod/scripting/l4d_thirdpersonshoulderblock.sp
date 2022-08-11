@@ -47,8 +47,7 @@ public Action CheckClients(Handle timer)
 		{
 			if (IsClientInGame(iClientIndex) && !IsFakeClient(iClientIndex))
 			{
-				int l4d_team_client = GetClientTeam(iClientIndex);
-				if (l4d_team_client == L4D_TEAM_SURVIVOR || l4d_team_client == L4D_TEAM_INFECTED)	// Only query clients on survivor or infected team, ignore spectators.
+				if (GetClientTeam(iClientIndex) != L4D_TEAM_SPECTATOR)	// Only query clients on survivor or infected team, ignore spectators.
 				{
 					QueryClientConVar(iClientIndex, "c_thirdpersonshoulder", QueryClientConVarCallback);
 				}
