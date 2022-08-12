@@ -2,19 +2,19 @@
 {
 	"spechud"
 	{
-			"en"		"{blue}[{default}HUD{blue}]{default} Spectator HUD is now %s."
+			"en"		"[{olive}HUD{default}] Spectator HUD is now %s."
 	}
 	"tankhud"
 	{
-			"en"		"{blue}[{default}HUD{blue}]{default} Tank HUD is now %s."
+			"en"		"[{olive}HUD{default}] Tank HUD is now %s."
 	}
 	"spechint"
 	{
-			"en"		"{blue}[{default}HUD{blue}]{default} Type {green}!spechud{default} into chat to toggle the {blue}Spectator HUD{default}."
+			"en"		"[{olive}HUD{default}] Type {green}!spechud{default} into chat to toggle the {blue}Spectator HUD{default}."
 	}
 	"tankhint"
 	{
-			"en"		"{blue}[{default}HUD{blue}]{default} Type {green}!tankhud{default} into chat to toggle the {red}Tank HUD{default}."
+			"en"		"[{olive}HUD{default}]Type {green}!tankhud{default} into chat to toggle the {red}Tank HUD{default}."
 	}
 	"stats1"
 	{
