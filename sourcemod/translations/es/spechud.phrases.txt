@@ -1,35 +1,205 @@
+/*
+ *	This plugin has included 'Colors':
+ *	- Regular colors: {default}, {green} (yellow in L4D), {olive}.
+ *	- {teamcolor}: replaces {red}, {blue} and {lightgreen} tags.
+ *
+ * 	- You can use only one team color (like lightgreen, red or blue) in the message.
+ * 	- There must be at least one player in each team for proper red and blue colors working.
+ * 	  Otherwise these tags will be replaced with green.
+*/
+
 "Phrases"
 {
-	"spechud"
+	// ToggleSpecHudCmd
+	"SpecHud"
 	{
-			"es"		"[{olive}HUD{default}] El {green}HUD del Espectador{default} esta %s."
+		"es"		"El {green}HUD del Espectador{default} esta {blue}%s{default}."
 	}
-	"tankhud"
+	// ToggleTankHudCmd
+	"TankHud"
 	{
-			"es"		"[{olive}HUD{default}] El {green}HUD del Tanque{default} esta %s."
+		"es"		"El {green}HUD del Tanque{default} esta {blue}%s{default}."
 	}
-	"spechint"
+	// HudDrawTimer
+	"SpechInt"
 	{
-			"es"		"[{olive}HUD{default}] Escribe {green}!spechud{default} en el chat para alternar el {blue}HUD del Espectador{default}."
+		"es"		"Escribe {green}!spechud{default} en el chat para alternar el {blue}HUD del Espectador{default}."
 	}
-	"tankhint"
+	"TankhInt"
 	{
-			"es"		"[{olive}HUD{default}] Escribe {green}!tankhud{default} en el chat para alternar el {red}HUD del Tanque{default}."
+		"es"		"Escribe {green}!tankhud{default} en el chat para alternar el {red}HUD del Tanque{default}."
 	}
-	"stats1"
+	// FillHeaderInfo
+	"Server"
 	{
-			"es"		"Golpes: %i | Rocas: %i | Objetos: %i"
+		"es"		"Servidor: %s [Espacios %i/%i | T%i]"
 	}
-	"stats2"
+	// FillSurvivorInfo L4D2Gamemode_Scavenge
+	"Survivors"
 	{
-			"es"		"           Daño Total: %i"
+		"es"		"->1. Supervivientes [%d of %d]"
+	}
+	// FillSurvivorInfo L4D2Gamemode_Versus
+	"Survivors2"
+	{
+		"es"		"->1. Supervivientes [%d]"
+	}
+	// FillScoreInfo L4D2Gamemode_Scavenge
+	"AccumulatedTime"
+	{
+		"es"		"> Tiempo acumulado [%02d:%02.0f]"
+	}
+	"OpponentDuration"
+	{
+		"es"		"> Duración del oponente [%02d:%05.2f]"
+	}
+	// FillScoreInfo L4D2Gamemode_Versus
+	"HDPBonus"
+	{
+		"es"		"> HB: %.0f%% | DB: %.0f%% | Píldoras: %i / %.0f%%"
+	}
+	"Bonus"
+	{
+		"es"		"> Bonificación: %i <%.1f%%>"
+	}
+	"Distance"
+	{
+		"es"		"> Distancia: %i"
+	}
+	"HealthBonus"
+	{
+		"es"		"> Bono de Salud: %i"
+	}
+	"PTPBonus"
+	{
+		"es"		"> Perm: %i | Temp: %i | Píldoras: %i"
+	}
+	// FillInfectedInfo
+	"Infected"
+	{
+		"es"		"->2. Infectadoss [%d of %d]"
+	}
+	"Infected2"
+	{
+		"es"		"->2. Infectados [%d]"
+	}
+	"InfectedDead"
+	{
+		"es"		"%s: Muerto"
+	}
+	"InfectedDead2"
+	{
+		"es"		"%s: Muerto (%s)"
+	}
+	"Spawning"
+	{
+		"es"		"Regenerando..."
+	}
+	"Ghost1HP"
+	{
+		"es"		"%s: %s (Fantasma@%iHP)"
+	}
+	"Ghost"
+	{
+		"es"		"%s: %s (Fantasma)"
+	}
+	"InfectedOnFire"
+	{
+		"es"		"%s: %s (%iHP) [En llamas]%s"
+	}
+	"NoSI"
+	{
+		"es"		"No hay SI en este momento"
+	}
+	// FillTankInfo
+	"TankHudTitle"
+	{
+		"es"		"%s :: HUD del Tanque"
+	}
+	"Stats1"
+	{
+		"es"		"Golpes: %i | Rocas: %i | Objetos: %i"
+	}
+	"Stats2"
+	{
+		"es"		"           Daño Total: %i"
+	}
+	"PanelTank"
+	{
+		"en"		"->3. Tanque"
+	}
+	"native"
+	{
+		"en"		"Nativo"
 	}
 	"on"
 	{
-			"es"		"{blue}activado{default}"
+		"es"		"activado"
 	}
 	"off"
 	{
-			"es"		"{red}desactivado{default}"
+		"es"		"desactivado"
+	}
+	"TankDead"
+	{
+		"es"		"Salud  : Muerto"
+	}
+	"THealth"
+	{
+		"es"		"Salud  : %i / %i%%"
+	}
+	"Network"
+	{
+		"es"		"Conexión: %ims / %.1f"
+	}
+	"NetworkIA"
+	{
+		"es"		"Conexión: AI"
+	}
+	"SpawnTime"
+	{
+		"es"		"Duración: (%s)"
+	}
+	"OnFire"
+	{
+		"es"		"En llamas : %is"
+	}
+	// FillGameInfo L4D2Gamemode_Scavenge
+	"BestOf"
+	{
+		"es"		"Lo mejor de %i"
+	}
+	// FillGameInfo L4D2Gamemode_Versus
+	"TankPercent"
+	{
+		"es"		"Tanque: %s"
+	}
+	"WitchPercent"
+	{
+		"es"		"%s | Bruja: %s"
+	}
+	"WitchPercent2"
+	{
+		"es"		"Bruja: %s"
+	}
+	"Current"
+	{
+		"es"		"%s | Actual: %i%%"
+	}
+	"Current2"
+	{
+		"es"		"Actual: %i%%"
+	}
+	"TankSelection"
+	{
+		"es"		"Tanque -> %N"
+	}
+	"Static"
+	{
+		"es"		"Estático"
+	}
+	"Event"
+	{
+		"es"		"Evento"
 	}
 }

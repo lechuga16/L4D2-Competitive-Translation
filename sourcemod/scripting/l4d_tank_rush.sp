@@ -29,6 +29,8 @@ public Plugin myinfo =
 
 public void OnPluginStart()
 {
+	LoadTranslations("tank_rush.phrases");
+
 	// ConVars
 	cvar_noTankRush = CreateConVar("l4d_no_tank_rush", "1", "Prevents survivor team from accumulating points whilst the tank is alive", _, true, 0.0, true, 1.0);
 	cvar_unfreezeSaferoom = CreateConVar("l4d_no_tank_rush_unfreeze_saferoom", "0", "Unfreezes Distance if a Survivor makes it to the end saferoom while the Tank is still up.", _, true, 0.0, true, 1.0);
@@ -36,8 +38,6 @@ public void OnPluginStart()
 	
 	// ChangeHook
 	cvar_noTankRush.AddChangeHook(NoTankRushChange);
-	
-	LoadTranslations("tank_rush.phrases");
 
 	if (cvar_noTankRush.BoolValue) {
 		PluginEnable();
@@ -142,7 +142,7 @@ void FreezePoints(bool show_message = false)
 	if (!bTankAlive) {
 		iDistance = L4D_GetVersusMaxCompletionScore();
 		if (show_message) {
-			CPrintToChatAll("%t", "freeze");
+			CPrintToChatAll("%t %t", "Tag", "freeze");
 			if (cvar_SpawnEnableSound.BoolValue) {
 				EmitSoundToAll("ui/pickup_secret01.wav");
 			}
@@ -160,9 +160,9 @@ void UnFreezePoints(bool show_message = false, int iMessage = 1)
 		if (show_message)
 		{
 			if (iMessage == 1) {
-				CPrintToChatAll("%t", "unfreeze");
+				CPrintToChatAll("%t %t", "Tag", "unfreeze");
 			} else {
-				CPrintToChatAll("%t", "saferoom");
+				CPrintToChatAll("%t %t", "Tag", "saferoom");
 			}
 		}
 		L4D_SetVersusMaxCompletionScore(iDistance);
