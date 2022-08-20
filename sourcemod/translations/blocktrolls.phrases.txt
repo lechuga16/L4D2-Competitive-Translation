@@ -1,0 +1,21 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"    "[{green}!{default}]"
+	}
+	"VotingNotEnabled"
+	{
+		"en"	"Voting is not enabled until {olive}60s{default} into the round."
+		"es"	"La votación no está habilitada hasta los {olive}60s{default} segundos en la ronda."
+	}
+	"NotConsoleVote"
+	{
+		"en"	"[!] You must be ingame to vote."
+	}
+	"NotSpectatorVote"
+	{
+		"en"	"{olive}Spectator{default} can't vote."
+		"es"	"Los {olive}espectadores{default} no pueden votar"
+	}
+}
