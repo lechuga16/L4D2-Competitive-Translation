@@ -1,0 +1,51 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"    "{blue}[{default}Slots{blue}]{default}"
+	}
+	"NotConsoleVote"
+	{
+		"en"	"[Slots] You must be ingame."
+	}
+	"LimitSlotsAbove"
+	{
+		"en"	"You can't limit slots above {olive}%i {default}on this Server."
+		"es"	"No puede limitar los espacios por encima de {olive}%i {default} en este servidor."
+	}
+	"LimitedSlotsTo"
+	{
+		"en"	"{olive}%s {default}has limited Slots to {blue}%i"
+		"es"	"{olive}%s {default}ha limitado los espacios a {blue}%i"
+	}
+	"RequiredPlayers"
+	{
+		"en"	"You can't limit Slots lower than required Players."
+		"es"	"No se pueden limitar los espacios por debajo de los jugadores requeridos."
+	}
+	"SlotsUsage"
+	{
+		"en"	"Usage: {olive}!slots {default}<{olive}number{default}> {blue}| {default}Example: {olive}!slots 8"
+		"es"	"Uso: {olive}!slots {default}<{olive}numero{default}> {blue}| {default}Ejemplo: {olive}!slots 8"
+	}
+	"Spectators"
+	{
+		"en"	"Voting isn't allowed for spectators."
+		"es"	"El voto no está permitido para los espectadores."
+	}
+	"LimitSlots"
+	{
+		"en"	"Limit Slots to '%s'?"
+		"es"	"¿Limitar los espacios a '%s'?"
+	}
+	"CannotBeStarted"
+	{
+		"en"	"Vote cannot be started now."
+		"es"	"La votación no puede iniciarse ahora."
+	}
+	"Limiting Slots"
+	{
+		"en"	"Limiting Slots..."
+		"es"	"Limitando los espacios..."
+	}
+}
