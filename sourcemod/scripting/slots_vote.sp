@@ -99,7 +99,7 @@ bool StartSlotVote(int client, char[] Slots)
 		}
 
 		char sBuffer[64];
-		Format(sBuffer, sizeof(sBuffer), "%t", "LimitSlots", Slots);
+		Format(sBuffer, sizeof(sBuffer), "%T", "LimitSlots", LANG_SERVER, Slots);
 
 		g_hVote = CreateBuiltinVote(VoteActionHandler, BuiltinVoteType_Custom_YesNo, BuiltinVoteAction_Cancel | BuiltinVoteAction_VoteEnd | BuiltinVoteAction_End);
 		SetBuiltinVoteArgument(g_hVote, sBuffer);
@@ -140,7 +140,7 @@ public void SlotVoteResultHandler(Handle vote, int num_votes, int num_clients, c
 
 				int Slots = StringToInt(g_sSlots, 10);
 				char Buffer[32];
-				Format(Buffer, sizeof(Buffer), "%t", "LimitingSlots");
+				Format(Buffer, sizeof(Buffer), "%T", "LimitingSlots", LANG_SERVER);
 				DisplayBuiltinVotePass(vote, Buffer);
 				SetConVarInt(FindConVar("sv_maxplayers"), Slots);
 				return;

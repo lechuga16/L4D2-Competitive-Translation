@@ -36,7 +36,7 @@
 	{
 		"en"	"Vote cannot be started now."
 	}
-	"Limiting Slots"
+	"LimitingSlots"
 	{
 		"en"	"Limiting Slots..."
 	}

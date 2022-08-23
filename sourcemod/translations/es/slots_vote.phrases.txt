@@ -32,7 +32,7 @@
 	{
 		"es"	"La votación no puede iniciarse ahora."
 	}
-	"Limiting Slots"
+	"LimitingSlots"
 	{
 		"es"	"Limitando los espacios..."
 	}
