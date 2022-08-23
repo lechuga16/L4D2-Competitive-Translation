@@ -38,8 +38,7 @@ public Plugin myinfo =
 bool g_bBlockCallvote;
 int  loadedPlayers = 0;
 
-public void
-	OnPluginStart()
+public void OnPluginStart()
 {
 	LoadTranslations("blocktrolls.phrases");
 	AddCommandListener(Vote_Listener, "callvote");
@@ -72,7 +71,7 @@ public Action Vote_Listener(int client, const char[] command, int argc)
 	}
 	else if (client == 0)
 	{
-		ReplyToCommand(client, "%t", "NotConsoleVote");
+		ReplyToCommand(client, "%T", "NotConsoleVote", LANG_SERVER);
 		return Plugin_Handled;
 	}
 	else if (IsClientInGame(client) && GetClientTeam(client) == L4D_TEAM_SPECTATOR)

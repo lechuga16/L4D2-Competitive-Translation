@@ -34,7 +34,7 @@ public Action SlotsRequest(int client, int args)
 {
 	if (client == 0)
 	{
-		ReplyToCommand(client, "%t", "NotConsoleVote");
+		ReplyToCommand(client, "%T", "NotConsoleVote", LANG_SERVER);
 		return Plugin_Handled;
 	}
 
