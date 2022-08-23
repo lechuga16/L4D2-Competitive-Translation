@@ -11,6 +11,10 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
  * Debe haber al menos un jugador en cada equipo para que los colores rojo y azul funcionen correctamente. 
  De lo contrario, estas etiquetas se reemplazarán con verde.
 
+# Límites de las traducciones:
+- Los paneles y votaciones presentan problemas para traducir texto a clientes con idioma diferente. Como solución, algunas traducciones se presentaran el idioma del servidor.
+- Para configurar el idioma del servidor, es necesario modificar la variable 'ServerLang' en el archivo 'sourcemod/configs/core.cfg'.
+
 # Creditos:
 - [lechuga](https://s.team/p/dtr-vcmc) 
 - [hacku](https://s.team/p/cknf-hhdq)

@@ -1,0 +1,172 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"	"{blue}<{green}BossVote{blue}>{default}"
+	}
+    // RunVoteChecks
+	"NotAvailable"
+	{
+		"en"	"Boss voting is not available on this map."
+        "es"	"La votación de jefes no está disponible en este mapa."
+	}
+	"Available"
+	{
+		"en"	"Boss voting is only available during ready up."
+        "es"	"La votación de jefes solo está disponible durante la preparación."
+	}
+	"FirstRound"
+	{
+		"en"	"Boss voting is only available during the first round of a map."
+        "es"	"La votación de jefes solo está disponible durante la primera ronda de un mapa."
+	}
+	"NotAvailableForSpec"
+	{
+		"en"	"Boss voting is not available for spectators."
+        "es"	"La votación de jefes no está disponible para los espectadores."
+	}
+	"CannotBeCalled"
+	{
+		"en"	"Boss Vote cannot be called right now..."
+        "es"	"Boss Vote no se puede llamar en este momento..."
+	}
+    // VoteBossCmd
+	"Usage"
+	{
+		"en"	"Usage: !voteboss {olive}<{default}tank{olive}> <{default}witch{olive}>{default}."
+        "es"	"Uso: !voteboss {olive}<{default}tanque{olive}> <{default}bruja{olive}>{default}."
+	}
+	"Usage2"
+	{
+		"en"	"Use {default}\"{blue}0{default}\" for {olive}No Spawn{default}, \"{blue}-1{default}\" for {olive}Ignorance."
+        "es"	"Uso {default}\"{blue}0{default}\" para {olive}No reaparición{default}, \"{blue}-1{default}\" para {olive}ignorarlo."
+	}
+	"Invalid"
+	{
+		"en"	"Percentages are {olive}invalid{default}."
+        "es"	"Los porcentajes son {olive}inválidos{default}."
+	}
+	"TankStatic"
+	{
+		"en"	"Tank spawn is static and can not be changed on this map."
+        "es"	"La generación del tanque es estática y no se puede cambiar en este mapa."
+	}
+	"WitchStatic"
+	{
+		"en"	"Witch spawn is static and can not be changed on this map."
+        "es"	"La generación de la bruja es estática y no se puede cambiar en este mapa."
+	}
+	"TankBanned"
+	{
+		"en"	"Tank percentage is {blue}banned{default}."
+        "es"	"El porcentaje del tanque está {azul}bloqueado{predeterminado}."
+	}
+	"WitchBanned"
+	{
+		"en"	"Witch percentage is {blue}banned{default}."
+        "es"	"El porcentaje de la bruja está {azul}bloqueado{predeterminado}."
+	}
+	"SetBosses"
+	{
+		"en"	"Set Tank to: %s and Witch to: %s?"
+        "es"	"¿Establecer Tanque en: %s y Bruja en: %s?"
+	}
+	"SetTank"
+	{
+		"en"	"Set Tank to: %s and Witch to: Disabled?"
+        "es"	"¿Establecer Tanque en: %s y Bruja en: Deshabilitado?"
+	}
+	"SetOnlyTank"
+	{
+		"en"	"Set Tank to: %s?"
+        "es"	"¿Establecer tanque en: %s?"
+	}
+	"SetWitch"
+	{
+		"en"	"Set Tank to: Disabled and Witch to: %s?"
+        "es"	"¿Establecer Tanque en: Deshabilitado y Bruja en: %s?"
+	}
+	"SetOnlyWitch"
+	{
+		"en"	"Set Witch to: %s?"
+        "es"	"¿Establecer a la bruja en: %s?"
+	}
+	"SetBossesDisabled"
+	{
+		"en"	"Set Bosses to: Disabled?"
+        "es"	"¿Establecer jefes a: Desactivado?"
+	}
+	"SetTankDisabled"
+	{
+		"en"	"Set Tank to: Disabled?"
+        "es"	"¿Establecer tanque en: Deshabilitado?"
+	}
+	"SetWitchDisabled"
+	{
+		"en"	"Set Witch to: Disabled?"
+        "es"	"¿Establecer a la bruja en: Deshabilitado?"
+	}
+    // BossVoteResultHandler
+	"OnlyReadyUp"
+	{
+		"en"	"Spawns can only be set during ready up."
+        "es"	"La reaparición solo se pueden establecer durante la preparación."
+	}
+	"SettingBoss"
+	{
+		"en"	"Setting Boss Spawns..."
+        "es"	"Ajustando la reaparición de jefes..."
+	}
+	"SettingTank"
+	{
+		"en"	"Setting Tank Spawn..."
+        "es"	"Ajustando la reaparición del Tanque..."
+	}
+	"SettingWitch"
+	{
+		"en"	"Setting Witch Spawn..."
+        "es"	"Ajustando la reaparición de la bruja..."
+	}
+	"SettingBossDisabled"
+	{
+		"en"	"Setting Boss Disabled..."
+        "es"	"Ajustando la desactivación de jefes..."
+	}
+    // ForceTankCommand
+	"CommandNotAvailable"
+	{
+		"en"	"Command not available on this map."
+        "es"	"Comando no disponible en este mapa."
+	}
+	"TankSpawnStatic"
+	{
+		"en"	"Tank spawn is static and can not be changed on this map."
+        "es"	"La reaparición de tanque es estática y no se puede cambiar en este mapa."
+	}
+	"PercentageInvalid"
+	{
+		"en"	"Percentage is {blue}invalid{default}."
+        "es"	"El porcentaje es {blue}inválido{default}."
+	}
+	"Percentagebanned"
+	{
+		"en"	"Percentage is {blue}banned{default}."
+        "es"	"El porcentaje esta {blue}prohibido{default}."
+	}
+	"TankSpawnAdmin"
+	{
+		"en"	"Tank spawn set to {olive}%i%%{default} by Admin {blue}%s{default}."
+        "es"	"Reaparición de tanques establecida en {olive}%i%%{default} por el administrador {blue}%s{default}."
+	}
+    // ForceWitchCommand
+	"WitchSpawnStatic"
+	{
+		"en"	"Witch spawn is static and can not be changed on this map."
+        "es"	"La reaparición de la bruja es estática y no se puede cambiar en este mapa."
+	}
+	"WitchSpawnAdmin"
+	{
+		"en"	"Witch spawn set to {olive}%i%%{default} by Admin {blue}%s{default}."
+        "es"	"Reaparición de la bruja establecida en {olive}%i%%{default} por el administrador {blue}%s{default}."
+	}
+}

@@ -599,7 +599,7 @@ void UpdatePanel()
 	char info[512];
 	serverNamerCvar.GetString(info, sizeof(info));
 	
-	Format(info, sizeof(info), "%t", "PanelSlots", info, GetSeriousClientCount(), FindConVar("sv_maxplayers").IntValue);
+	Format(info, sizeof(info), "%T", "PanelSlots", LANG_SERVER , info, GetSeriousClientCount(), FindConVar("sv_maxplayers").IntValue);
 	menuPanel.DrawText(info);
 	
 	// passing NULL_STRING will use the rules defined in sm_datetime_format
@@ -610,13 +610,13 @@ void UpdatePanel()
 	menuPanel.DrawText(" ");
 
 	char Titlebuffer[32];
-	Format(Titlebuffer, sizeof(Titlebuffer), "%t", "PanelTitle");
+	Format(Titlebuffer, sizeof(Titlebuffer), "%T", "PanelTitle", LANG_SERVER);
 	menuPanel.DrawText(Titlebuffer);
 
 	if (adminPause && initiatorId > 0)
 	{
 		char buffer[32];
-		Format(buffer, sizeof(buffer), "%t", "RequireAdmin");
+		Format(buffer, sizeof(buffer), "%T", "RequireAdmin", LANG_SERVER);
 		menuPanel.DrawText(buffer);
 		menuPanel.DrawText(teamReady[L4D2Team_Survivor] ? SurvivorUnPaused() : SurvivorPaused() );
 		menuPanel.DrawText(teamReady[L4D2Team_Infected] ? InfectedUnPaused() : InfectedPaused() );
@@ -645,18 +645,18 @@ void UpdatePanel()
 
 	if (adminPause)
 	{
-		if (!initiatorId) Format(info, sizeof(info), "%t", "AutoPauseCrash");
-		else Format(info, sizeof(info), "%t", "ForcePauseAdmin", strlen(name) ? name : initiatorName);
+		if (!initiatorId) Format(info, sizeof(info), "%T", "AutoPauseCrash", LANG_SERVER);
+		else Format(info, sizeof(info), "%T", "ForcePauseAdmin", LANG_SERVER, strlen(name) ? name : initiatorName);
 	}
 	else
 	{
-		Format(info, sizeof(info), "%t", "InitiatorPause", strlen(name) ? name : initiatorName, L4D2_TeamName[pauseTeam]);
+		Format(info, sizeof(info), "%T", "InitiatorPause", LANG_SERVER, strlen(name) ? name : initiatorName, L4D2_TeamName[pauseTeam]);
 	}
 	
 	menuPanel.DrawText(info);
 		
 	int duration = RoundToNearest(GetEngineTime() - pauseTime);
-	FormatEx(info, sizeof(info), "%t", "DurationPause", duration / 60, duration % 60);
+	FormatEx(info, sizeof(info), "%T", "DurationPause", LANG_SERVER, duration / 60, duration % 60);
 	menuPanel.DrawText(info);
 	
 	for (int client = 1; client <= MaxClients; client++)
@@ -966,48 +966,48 @@ stock void SetClientButtons(int client, int buttons)
 stock char[] AsInitiator()
 {
 	char buffer[64];
-	Format(buffer, sizeof(buffer), "%t", "AsInitiator");
+	Format(buffer, sizeof(buffer), "%T", "AsInitiator", LANG_SERVER);
 	return buffer;
 }
 
 stock char[] SurvivorUnPaused()
 {
 	char buffer[64];
-	Format(buffer, sizeof(buffer), "%t", "SurvivorUnPaused");
+	Format(buffer, sizeof(buffer), "%T", "SurvivorUnPaused", LANG_SERVER);
 	return buffer;
 }
 
 stock char[] SurvivorPaused()
 {
 	char buffer[64];
-	Format(buffer, sizeof(buffer), "%t", "SurvivorPaused");
+	Format(buffer, sizeof(buffer), "%T", "SurvivorPaused", LANG_SERVER);
 	return buffer;
 }
 
 stock char[] InfectedUnPaused()
 {
 	char buffer[64];
-	Format(buffer, sizeof(buffer), "%t", "InfectedUnPaused");
+	Format(buffer, sizeof(buffer), "%T", "InfectedUnPaused", LANG_SERVER);
 	return buffer;
 }
 
 stock char[] InfectedPaused()
 {
 	char buffer[64];
-	Format(buffer, sizeof(buffer), "%t", "InfectedPaused");
+	Format(buffer, sizeof(buffer), "%T", "InfectedPaused", LANG_SERVER);
 	return buffer;
 }
 
 stock char[] InitiatorUnPaused()
 {
 	char buffer[64];
-	Format(buffer, sizeof(buffer), "%t", "InitiatorUnPaused");
+	Format(buffer, sizeof(buffer), "%T", "InitiatorUnPaused", LANG_SERVER);
 	return buffer;
 }
 
 stock char[] InitiatorPaused()
 {
 	char buffer[64];
-	Format(buffer, sizeof(buffer), "%t", "InitiatorPaused");
+	Format(buffer, sizeof(buffer), "%T", "InitiatorPaused", LANG_SERVER);
 	return buffer;
 }
