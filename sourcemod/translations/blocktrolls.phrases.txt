@@ -6,8 +6,7 @@
 	}
 	"VotingNotEnabled"
 	{
-		"en"	"Voting is not enabled until {olive}60s{default} into the round."
-		"es"	"La votación no está habilitada hasta los {olive}60s{default} segundos en la ronda."
+		"en"	"Voting is not enabled until {olive}40s{default} into the round."
 	}
 	"NotConsoleVote"
 	{
@@ -16,6 +15,5 @@
 	"NotSpectatorVote"
 	{
 		"en"	"{olive}Spectator{default} can't vote."
-		"es"	"Los {olive}espectadores{default} no pueden votar"
 	}
 }
