@@ -194,6 +194,6 @@
 	}
 	"Event"
 	{
-		"en"		"Static"
+		"en"		"Event"
 	}
 }

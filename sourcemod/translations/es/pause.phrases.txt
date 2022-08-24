@@ -74,7 +74,7 @@
 	// AttemptPause
 	"PauseDeferred"
 	{
-		"es"	"{red}La pausa se ha retrasado debido a una recogida en curso."
+		"es"	"{red}La pausa se ha retrasado debido a que un sobreviviente se está levantando."
 	}
 	// Pause
 	"PausePreventSpawn"
