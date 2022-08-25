@@ -1,0 +1,15 @@
+// Checkpoint Rage Control
+- Actualización de sintaxis
+- Se añadió un gancho para anunciar información del control del tanque.
+
+// Block Trolls
+- Actualización de sintaxis
+
+// Thirdpersonshoulder Block
+- Actualización de sintaxis
+
+// Hyper-V HUD Manager
+- Se añadieron funciones adicionales para concatenar las traducciones.
+
+// BeQuiet
+- Se bloqueó la emisión de mensajes a sourcetv.
