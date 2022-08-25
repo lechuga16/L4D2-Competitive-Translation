@@ -1,4 +1,4 @@
-# L4D2-Competitive-Es-translation
+# L4D2-Competitive-translation
 
 [EN] [translation](https://translate.google.com/translate?sl=es&tl=en&u=https://github.com/lechuga16/L4D2-Competitive-Es-translation)
 
