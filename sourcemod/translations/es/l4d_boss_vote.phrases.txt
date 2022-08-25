@@ -1,0 +1,136 @@
+"Phrases"
+// RunVoteChecks
+{
+    "NotAvailable"
+    {
+        "es"    "La votación de jefes no está disponible en este mapa."
+    }
+    "Available"
+    {
+        "es"    "La votación de jefes solo está disponible durante la preparación."
+    }
+    "FirstRound"
+    {
+        "es"    "La votación de jefes solo está disponible durante la primera ronda de un mapa."
+    }
+    "NotAvailableForSpec"
+    {
+        "es"    "La votación de jefes no está disponible para los espectadores."
+    }
+    "CannotBeCalled"
+    {
+        "es"    "Boss Vote no se puede llamar en este momento..."
+    }
+    // VoteBossCmd
+    "Usage"
+    {
+        "es"    "Uso: !voteboss {olive}<{default}tanque{olive}> <{default}bruja{olive}>{default}."
+    }
+    "Usage2"
+    {
+        "es"    "Uso {default}\"{blue}0{default}\" para {olive}No reaparición{default}, \"{blue}-1{default}\" para {olive}ignorarlo."
+    }
+    "Invalid"
+    {
+        "es"    "Los porcentajes son {olive}inválidos{default}."
+    }
+    "TankStatic"
+    {
+        "es"    "La generación del tanque es estática y no se puede cambiar en este mapa."
+    }
+    "WitchStatic"
+    {
+        "es"    "La generación de la bruja es estática y no se puede cambiar en este mapa."
+    }
+    "TankBanned"
+    {
+        "es"    "El porcentaje del tanque está {blue}bloqueado{default}."
+    }
+    "WitchBanned"
+    {
+        "es"    "El porcentaje de la bruja está {blue}bloqueado{default}."
+    }
+    "SetBosses"
+    {
+        "es"    "¿Establecer Tanque en: %s y Bruja en: %s?"
+    }
+    "SetTank"
+    {
+        "es"    "¿Establecer Tanque en: %s y Bruja en: Deshabilitado?"
+    }
+    "SetOnlyTank"
+    {
+        "es"    "¿Establecer tanque en: %s?"
+    }
+    "SetWitch"
+    {
+        "es"    "¿Establecer Tanque en: Deshabilitado y Bruja en: %s?"
+    }
+    "SetOnlyWitch"
+    {
+        "es"    "¿Establecer a la bruja en: %s?"
+    }
+    "SetBossesDisabled"
+    {
+        "es"    "¿Establecer jefes a: Desactivado?"
+    }
+    "SetTankDisabled"
+    {
+        "es"    "¿Establecer tanque en: Deshabilitado?"
+    }
+    "SetWitchDisabled"
+    {
+        "es"    "¿Establecer a la bruja en: Deshabilitado?"
+    }
+    // BossVoteResultHandler
+    "OnlyReadyUp"
+    {
+        "es"    "La reaparición solo se pueden establecer durante la preparación."
+    }
+    "SettingBoss"
+    {
+        "es"    "Ajustando la reaparición de jefes..."
+    }
+    "SettingTank"
+    {
+        "es"    "Ajustando la reaparición del Tanque..."
+    }
+    "SettingWitch"
+    {
+        "es"    "Ajustando la reaparición de la bruja..."
+    }
+    "SettingBossDisabled"
+    {
+        "es"    "Ajustando la desactivación de jefes..."
+    }
+    // ForceTankCommand
+    "CommandNotAvailable"
+    {
+        "es"    "Comando no disponible en este mapa."
+    }
+    "TankSpawnStatic"
+    {
+        "es"    "La reaparición de tanque es estática y no se puede cambiar en este mapa."
+    }
+    "PercentageInvalid"
+    {
+        "es"    "El porcentaje es {blue}inválido{default}."
+    }
+    "Percentagebanned"
+    {
+        "es"    "El porcentaje esta {blue}prohibido{default}."
+    }
+    "TankSpawnAdmin"
+    {
+        "es"    "Reaparición de tanques establecida en {olive}%i%%{default} por el administrador {blue}%s{default}."
+    }
+    // ForceWitchCommand
+    "WitchSpawnStatic"
+    {
+        "es"    "La reaparición de la bruja es estática y no se puede cambiar en este mapa."
+    }
+    "WitchSpawnAdmin"
+    {
+        "es"    "Reaparición de la bruja establecida en {olive}%i%%{default} por el administrador {blue}%s{default}."
+    }
+}

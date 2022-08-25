@@ -121,7 +121,7 @@ public Action VoteBossCmd(int client, int args)
 	// Make sure the args are actual numbers
 	if (!IsInteger(bv_sTank) || !IsInteger(bv_sWitch))
 	{
-		CReplyToCommand(client, "%t", "Invalid");
+		CReplyToCommand(client, "%t %t", "Tag", "Invalid");
 		return Plugin_Handled;
 	}
 	
@@ -133,7 +133,7 @@ public Action VoteBossCmd(int client, int args)
 	else
 	{
 		bv_bTank = false;
-		CReplyToCommand(client, "%t", "TankStatic");
+		CReplyToCommand(client, "%t %t", "Tag", "TankStatic");
 	}
 	
 	if (!IsStaticWitchMap())
@@ -143,20 +143,20 @@ public Action VoteBossCmd(int client, int args)
 	else
 	{
 		bv_bWitch = false;
-		CReplyToCommand(client, "%t", "WitchStatic");
+		CReplyToCommand(client, "%t %t", "Tag", "WitchStatic");
 	}
 	
 	// Check if percent is within limits
 	if (bv_bTank && !IsTankPercentValid(bv_iTank))
 	{
 		bv_bTank = false;
-		CReplyToCommand(client, "%t", "TankBanned");
+		CReplyToCommand(client, "%t %t", "Tag", "TankBanned");
 	}
 	
 	if (bv_bWitch && !IsWitchPercentValid(bv_iWitch, true))
 	{
 		bv_bWitch = false;
-		CReplyToCommand(client, "%t", "WitchBanned");
+		CReplyToCommand(client, "%t %t", "Tag", "WitchBanned");
 	}
 	
 	char bv_voteTitle[64];

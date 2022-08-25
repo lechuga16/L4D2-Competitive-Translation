@@ -1,0 +1,47 @@
+"Phrases"
+{
+	"TankOn"
+	{
+		"es"	"Tanque: %d%%"
+	}
+	"WitchOn"
+	{
+		"es"	"Bruja: %d%%"
+	}
+	"Disabled"
+	{
+		"es"	"Deshabilitado"
+	}
+	"StaticSpawn"
+	{
+		"es"	"Reaparición estática"
+	}
+	"None"
+	{
+		"es"	"Ninguno"
+	}
+	"TankDisabled"
+	{
+		"es"	"Tanque: Deshabilitado"
+	}
+	"TankStatic"
+	{
+		"es"	"Tanque: Estático"
+	}
+	"TankNone"
+	{
+		"es"	"Tanque: Ninguno"
+	}
+	"WitchDisabled"
+	{
+		"es"	"Bruja: Deshabilitada"
+	}
+	"WitchStatic"
+	{
+		"es"	"Bruja: Estática"
+	}
+	"WitchNone"
+	{
+		"es"	"Bruja: Ninguno"
+	}
+}

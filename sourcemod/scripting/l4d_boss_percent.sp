@@ -621,7 +621,7 @@ public Action Timer_UpdateReadyUpFooter(Handle timer)
 		// Format our Tank String
 		if (g_fTankPercent > 0)    // If Tank percent is not 0
 		{
-			Format(p_sTankString, sizeof(p_sTankString), "%T: %d%%", "Tank", LANG_SERVER, g_fTankPercent);
+			Format(p_sTankString, sizeof(p_sTankString), "%T", "TankOn", LANG_SERVER, g_fTankPercent);
 		}
 		else if (g_bTankDisabled)    // If another plugin has disabled the tank
 		{
@@ -639,7 +639,7 @@ public Action Timer_UpdateReadyUpFooter(Handle timer)
 		// Format our Witch String
 		if (g_fWitchPercent > 0)    // If Witch percent is not 0
 		{
-			Format(p_sWitchString, sizeof(p_sWitchString), "%T: %d%%", "Witch", LANG_SERVER, g_fWitchPercent);
+			Format(p_sWitchString, sizeof(p_sWitchString), "%T", "WitchOn", LANG_SERVER, g_fWitchPercent);
 		}
 		else if (g_bWitchDisabled)    // If another plugin has disabled the witch
 		{

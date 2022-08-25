@@ -8,59 +8,48 @@
 	{
 		"en"	"<{olive}Witch{default}>"
 	}
-	"Tank"
+	"TankOn"
 	{
-		"en"	"Tank"
-		"es"	"Tanque"
+		"en"	"Tank: %d%%"
 	}
-	"Witch"
+	"WitchOn"
 	{
-		"en"	"Witch"
-		"es"	"Bruja"
+		"en"	"Witch: %d%%"
 	}
 	"Disabled"
 	{
 		"en"	"Disabled"
-		"es"	"Deshabilitado"
 	}
 	"StaticSpawn"
 	{
 		"en"	"Static Spawn"
-		"es"	"Reaparición estática"
 	}
 	"None"
 	{
 		"en"	"None"
-		"es"	"Ninguno"
 	}
 	"TankDisabled"
 	{
 		"en"	"Tank: Disabled"
-		"es"	"Tanque: Deshabilitado"
 	}
 	"TankStatic"
 	{
 		"en"	"Tank: Static Spawn"
-		"es"	"Tanque: Reaparición estática"
 	}
 	"TankNone"
 	{
 		"en"	"Tank: None"
-		"es"	"Tanque: Ninguno"
 	}
 	"WitchDisabled"
 	{
 		"en"	"Witch: Disabled"
-		"es"	"Bruja: Deshabilitada"
 	}
 	"WitchStatic"
 	{
 		"en"	"Witch: Static Spawn"
-		"es"	"Bruja: Reaparición estática"
 	}
 	"WitchNone"
 	{
 		"en"	"Witch: None"
-		"es"	"Bruja: Ninguno"
 	}
 }
