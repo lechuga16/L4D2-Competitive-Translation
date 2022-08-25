@@ -16,6 +16,8 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
 - Para configurar el idioma del servidor, es necesario modificar la variable 'ServerLang' en el archivo 'sourcemod/configs/core.cfg'.
 
 # Creditos:
-- [lechuga](https://s.team/p/dtr-vcmc) 
+> Fundador del proyecto y colaborador
+- [lechuga](https://s.team/p/dtr-vcmc)
+> Colaboradores de complementos y traducciones
 - [hacku](https://s.team/p/cknf-hhdq)
 - [Benjamin ](https://s.team/p/grk-pvmw)
