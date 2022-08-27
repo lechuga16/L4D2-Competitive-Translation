@@ -32,6 +32,9 @@ Thirdpersonshoulder Block
 
 BeQuiet
 - Se bloqueó la emisión de mensajes a sourcetv.
+
+1v1 SkeetStats
+- Actualización de sintaxis.
 ```
 
 # === Alternativo ==
