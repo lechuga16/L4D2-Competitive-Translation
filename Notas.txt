@@ -1,3 +1,5 @@
+=== L4D2 Competitive ===
+
 // Checkpoint Rage Control
 - Actualización de sintaxis
 - Se añadió un gancho para anunciar información del control del tanque.
@@ -8,12 +10,15 @@
 // Thirdpersonshoulder Block
 - Actualización de sintaxis
 
+// BeQuiet
+- Se bloqueó la emisión de mensajes a sourcetv.
+
+=== Alternativo ==
+
 // Hyper-V HUD Manager
 - Este complemento tiene ediciones por Foxhound para ver más datos.
 - Se añadieron funciones adicionales para concatenar las traducciones.
-
-// BeQuiet
-- Se bloqueó la emisión de mensajes a sourcetv.
+- Este complemento proviene de https://github.com/Target5150/MoYu_Server_Stupid_Plugins
 
 // L4D2 Tank Facts Announce
 - Este complemento proviene de https://github.com/Target5150/MoYu_Server_Stupid_Plugins

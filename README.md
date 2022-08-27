@@ -15,6 +15,9 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
 - Los paneles y votaciones presentan problemas para traducir texto a clientes con idioma diferente. Como solución, algunas traducciones se presentaran el idioma del servidor.
 - Para configurar el idioma del servidor, es necesario modificar la variable 'ServerLang' en el archivo 'sourcemod/configs/core.cfg'.
 
+# Alternativo:
+- Los complementos adicionales estarán en esta carpeta.
+
 # Creditos:
 > Fundador del proyecto y colaborador
 - [lechuga](https://s.team/p/dtr-vcmc)
