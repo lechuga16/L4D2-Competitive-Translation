@@ -11,6 +11,19 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
  * Debe haber al menos un jugador en cada equipo para que los colores rojo y azul funcionen correctamente. 
  De lo contrario, estas etiquetas se reemplazarán con verde.
 
+### Tabla de colores
+| Hex   | Color          |
+| ------|:--------------:|
+| \x01  | {default}      |
+| \x02  | ~~{darkred}~~  |
+| \x03  | {lightgreen} {red} {blue} ~~{purple}~~|
+| \x04  | {green}        |
+| \x05  | {olive}        |
+| \x06  | ~~{lime}~~     |
+| \x07  | ~~{lightred}~~ |
+| \x08  | ~~{grey}~~     |
+| \x09  | ~~{orange}~~   |
+
 # Límites de las traducciones:
 - Los paneles y votaciones presentan problemas para traducir texto a clientes con idioma diferente. Como solución, algunas traducciones se presentaran el idioma del servidor.
 - Para configurar el idioma del servidor, es necesario modificar la variable 'ServerLang' en el archivo 'sourcemod/configs/core.cfg'.
