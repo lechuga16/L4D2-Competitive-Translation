@@ -18,7 +18,37 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
 # Alternativo:
 - Los complementos adicionales estarán en esta carpeta.
 
-# Creditos:
+# Alternativo:
+- Los complementos adicionales estarán en esta carpeta.
+
+# === L4D2 Competitive ===
+```
+Checkpoint Rage Control
+- Actualización de sintaxis
+- Se añadió un gancho para anunciar información del control del tanque.
+
+Block Trolls
+- Actualización de sintaxis
+
+Thirdpersonshoulder Block
+- Actualización de sintaxis
+
+BeQuiet
+- Se bloqueó la emisión de mensajes a sourcetv.
+```
+
+# === Alternativo ==
+```
+Hyper-V HUD Manager
+- Este complemento tiene ediciones por Foxhound para ver más datos.
+- Se añadieron funciones adicionales para concatenar las traducciones.
+- Este complemento proviene de https://github.com/Target5150/MoYu_Server_Stupid_Plugins
+
+L4D2 Tank Facts Announce
+- Este complemento proviene de https://github.com/Target5150/MoYu_Server_Stupid_Plugins
+```
+
+## Creditos:
 > Fundador del proyecto y colaborador
 - [lechuga](https://s.team/p/dtr-vcmc)
 > Colaboradores de complementos y traducciones
