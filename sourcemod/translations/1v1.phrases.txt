@@ -1,0 +1,15 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"	"[{olive}1v1{default}]"
+	}
+	"HealthRemaining"
+	{
+		"en"	"{red}%s{default} ({green}%s{default}) had {olive}%d{default} health remaining!"
+	}
+	"UMad"
+	{
+		"en"	"You don't have to be mad..."
+	}
+}

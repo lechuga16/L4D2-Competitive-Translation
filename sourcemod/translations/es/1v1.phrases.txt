@@ -1,0 +1,11 @@
+"Phrases"
+{
+	"HealthRemaining"
+	{
+		"es"	"¡{red}%s{default} ({green}%s{default}) tenía {olive}%d{default} de vida restante!"
+	}
+	"UMad"
+	{
+		"es"	"No deberías enojarte..."
+	}
+}
