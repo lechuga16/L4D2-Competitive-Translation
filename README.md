@@ -18,9 +18,6 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
 # Alternativo:
 - Los complementos adicionales estarán en esta carpeta.
 
-# Alternativo:
-- Los complementos adicionales estarán en esta carpeta.
-
 # === L4D2 Competitive ===
 ```
 Checkpoint Rage Control
