@@ -23,6 +23,9 @@
 #include <sourcemod>
 
 #define CALL_OPCODE 0xE8
+#define L4D2Team_Survivor 2
+#define L4D2Team_Infected 3
+#define L4D2Infected_Tank 8
 
 // xor eax,eax; NOP_3;
 int
@@ -106,13 +109,17 @@ public void L4D_OnSpawnTank_Post(int client, const float vecPos[3], const float 
 
 public void Event_EnteredStartArea(Event hEvent, const char[] eName, bool dontBroadcast)
 {
-	if (GetConVarBool(hAllMaps))
+	int client = GetClientOfUserId(GetEventInt(hEvent, "userid"));
+	if (IsValidSurvivor(client))
 	{
-		CPrintToChatAll("%t %t", "Tag", "LoseFrustration");
-	}
-	else
-	{
-		CPrintToChatAll("%t %t", "Tag", "KeepFrustration");
+		if (GetConVarBool(hAllMaps))
+		{
+			CPrintToChatAll("%t %t", "Tag", "LoseFrustration");
+		}
+		else
+		{
+			CPrintToChatAll("%t %t", "Tag", "KeepFrustration");
+		}
 	}
 	UnhookEvent("player_entered_start_area", Event_EnteredStartArea);
 }
@@ -167,4 +174,31 @@ Address FindPatchTarget(Handle hGamedata)
 	}
 
 	return pTarget;
+}
+
+stock bool IsValidClientIndex(int client)
+{
+	return (client > 0 && client <= MaxClients);
+}
+
+/**
+ * Returns true if the client is currently on the survivor team. 
+ *
+ * @param client client ID
+ * @return bool
+ */
+stock bool IsSurvivor(int client)
+{
+	return (IsClientInGame(client) && GetClientTeam(client) == L4D2Team_Survivor);
+}
+
+/**
+ * Return true if the valid client index and is client on the survivor team.
+ *
+ * @param client client ID
+ * @return bool
+ */
+stock bool IsValidSurvivor(int client)
+{
+	return (IsValidClientIndex(client) && IsSurvivor(client));
 }

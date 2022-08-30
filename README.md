@@ -48,6 +48,10 @@ BeQuiet
 
 1v1 SkeetStats
 - Actualización de sintaxis.
+
+Skill Detection (skeets, crowns, levels)
+- Actualización de sintaxis.
+- se agregó convar nuevos.
 ```
 
 # === Alternativo ==
