@@ -77,7 +77,7 @@ public void Event_PlayerHurt(Event hEvent, const char[] sEventName, bool bDontBr
 	
 	char sName[MAX_NAME_LENGTH];
 	if (IsFakeClient(iAttacker)) {
-		Format(sName, sizeof(sName), "AI");
+		Format(sName, sizeof(sName), "%t", "AI");
 	} else {
 		GetClientName(iAttacker, sName, sizeof(sName));
 	}
