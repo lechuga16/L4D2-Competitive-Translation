@@ -2,10 +2,12 @@
 {
 	"Survivor"
 	{
-		"es"	"(Superviviente) {blue}%N {default}: %s"
+		"#format"   "{1:N},{2:s}" // 1:client 2:sChat
+		"es"		"(Superviviente) {blue}{1} {default}: {2}"
 	}
 	"Infected"
 	{
-		"es"	"(Infectado) {red}%N {default}: %s"
+		"#format"   "{1:N},{2:s}" // 1:client 2:sChat
+		"es"		"(Infectado) {red}{1} {default}: {2}"
 	}
 }
