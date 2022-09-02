@@ -2,42 +2,43 @@
 {
 	"Tag"
 	{
-		"en"    "{blue}[{default}Slots{blue}]{default}"
+		"en"    	"{blue}[{default}Slots{blue}]{default}"
 	}
 	"NotConsoleVote"
 	{
-		"en"	"[Slots] You must be ingame."
+		"en"		"[Slots] You must be ingame."
 	}
 	"LimitSlotsAbove"
 	{
-		"en"	"You can't limit slots above {olive}%i {default}on this Server."
+		"en"		"You can't limit slots above {olive}%i{default} on this Server."
 	}
 	"LimitedSlotsTo"
 	{
-		"en"	"{olive}%s {default}has limited Slots to {blue}%i"
+		"#format"   "{1:s},{2:i}" // 1:sName 2:Int
+		"en"		"{olive}{1}{default} has limited Slots to {blue}{2}{default}"
 	}
 	"RequiredPlayers"
 	{
-		"en"	"You can't limit Slots lower than required Players."
+		"en"		"You can't limit Slots lower than required Players."
 	}
 	"SlotsUsage"
 	{
-		"en"	"Usage: {olive}!slots {default}<{olive}number{default}> {blue}| {default}Example: {olive}!slots 8"
+		"en"		"Usage: {olive}!slots{default} <{olive}number{default}> {blue}|{default} Example: {olive}!slots 8{default}"
 	}
 	"Spectators"
 	{
-		"en"	"Voting isn't allowed for spectators."
+		"en"		"Voting isn't allowed for spectators."
 	}
 	"LimitSlots"
 	{
-		"en"	"Limit Slots to '%s'?"
+		"en"		"Limit Slots to '%s'?"
 	}
 	"CannotBeStarted"
 	{
-		"en"	"Vote cannot be started now."
+		"en"		"Vote cannot be started now."
 	}
 	"LimitingSlots"
 	{
-		"en"	"Limiting Slots..."
+		"en"		"Limiting Slots..."
 	}
 }

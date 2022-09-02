@@ -3,21 +3,17 @@
 	"Title"
 	{
 		"en"	"{blue}[{default}Tank Rock Selector{blue}]"
-        "es"	"{blue}[{default}Selector de Roca del Tanque{blue}]"
 	}
 	"Reload"
 	{
-		"en"	"{olive}Reload {default}= {blue}2 Handed Overhand"
-        "es"	"{olive}Recarga {default}= {blue}2 Manos por encima de la cabeza"
+		"en"	"{olive}Reload{default} = {blue}2 Handed Overhand{default}"
 	}
 	"Use"
 	{
-		"en"	"{olive}Use {default}= {blue}Underhand"
-        "es"	"{olive}Usar {default}= {blue}Lateral"
+		"en"	"{olive}Use{default} = {blue}Underhand{default}"
 	}
 	"M2"
 	{
-		"en"	"{olive}M2 {default}= {blue}1 Handed Overhand"
-        "es"	"{olive}M2 {default}= {blue}1 Mano por encima de la cabeza"
+		"en"	"{olive}M2{default} = {blue}1 Handed Overhand{default}"
 	}
 }
