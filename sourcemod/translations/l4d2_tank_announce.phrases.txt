@@ -7,11 +7,11 @@
 	"Spawned"
 	{
 		"en"	"{olive}Tank {default}({red}Control: %s{default}) has spawned!"
-    	"es"	"¡Se ha generado un {olive}Tanque {default}({red}Control: %s{default})!"
+    	"es"	"¡Se ha generado un {olive}Tank {default}({red}Control: %s{default})!"
 	}
 	"Spawned2"
 	{
 		"en"	"{olive}Tank {default}({red}Control: %N{default}) has spawned!"
-		"es"	"¡Se ha generado un {olive}Tanque {default}({red}Control: %N{default})!"
+		"es"	"¡Se ha generado un {olive}Tank {default}({red}Control: %N{default})!"
 	}
 }

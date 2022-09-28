@@ -35,7 +35,7 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
 ```
 Checkpoint Rage Control
 - Actualización de sintaxis
-- Se añadió un gancho para anunciar información del control del tanque.
+- Se añadió un gancho para anunciar información del control del Tank.
 
 Block Trolls
 - Actualización de sintaxis

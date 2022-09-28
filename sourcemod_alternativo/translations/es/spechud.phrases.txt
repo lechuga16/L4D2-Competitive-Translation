@@ -8,7 +8,7 @@
 	// ToggleTankHudCmd
 	"TankHud"
 	{
-		"es"		"El {green}HUD del Tanque{default} esta {blue}%s{default}."
+		"es"		"El {green}HUD del Tank{default} esta {blue}%s{default}."
 	}
 	// HudDrawTimer
 	"SpechInt"
@@ -17,7 +17,7 @@
 	}
 	"TankhInt"
 	{
-		"es"		"Escribe {green}!tankhud{default} en el chat para alternar el {red}HUD del Tanque{default}."
+		"es"		"Escribe {green}!tankhud{default} en el chat para alternar el {red}HUD del Tank{default}."
 	}
 	// FillHeaderInfo
 	"Server"
@@ -104,7 +104,7 @@
 	// FillTankInfo
 	"TankHudTitle"
 	{
-		"es"		"%s :: HUD del Tanque"
+		"es"		"%s :: HUD del Tank"
 	}
 	"Stats1"
 	{
@@ -116,7 +116,7 @@
 	}
 	"PanelTank"
 	{
-		"en"		"->3. Tanque"
+		"en"		"->3. Tank"
 	}
 	"native"
 	{
@@ -162,15 +162,15 @@
 	// FillGameInfo L4D2Gamemode_Versus
 	"TankPercent"
 	{
-		"es"		"Tanque: %s"
+		"es"		"Tank: %s"
 	}
 	"WitchPercent"
 	{
-		"es"		"%s | Bruja: %s"
+		"es"		"%s | Witch: %s"
 	}
 	"WitchPercent2"
 	{
-		"es"		"Bruja: %s"
+		"es"		"Witch: %s"
 	}
 	"Current"
 	{
@@ -182,7 +182,7 @@
 	}
 	"TankSelection"
 	{
-		"es"		"Tanque -> %N"
+		"es"		"Tank -> %N"
 	}
 	"Static"
 	{

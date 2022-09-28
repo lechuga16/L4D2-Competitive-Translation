@@ -3,7 +3,7 @@
 	"Announce_Title"
 	{
 		"#format"	"{1:s}"
-		"es"		"[{green}!{default}] {blue}Datos {default}del {blue}Tanque {default}({olive}{1}{default})"
+		"es"		"[{green}!{default}] {blue}Datos {default}del {blue}Tank {default}({olive}{1}{default})"
 	}
 	
 	// CSayText parece ser asíncrono o a través de un flujo de texto..., lo que sea cuesta una cantidad de tiempo aleatoria.

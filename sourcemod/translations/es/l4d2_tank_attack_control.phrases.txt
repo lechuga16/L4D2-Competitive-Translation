@@ -2,7 +2,7 @@
 {
 	"Title"
 	{
-        "es"	"{blue}[{default}Selector de Roca del Tanque{blue}]{default}"
+        "es"	"{blue}[{default}Selector de Roca del Tank{blue}]{default}"
 	}
 	"Reload"
 	{

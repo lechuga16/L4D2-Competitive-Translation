@@ -2,11 +2,11 @@
 {
 	"TankOn"
 	{
-		"es"	"Tanque: %d%%"
+		"es"	"Tank: %d%%"
 	}
 	"WitchOn"
 	{
-		"es"	"Bruja: %d%%"
+		"es"	"Witch: %d%%"
 	}
 	"Disabled"
 	{
@@ -22,26 +22,26 @@
 	}
 	"TankDisabled"
 	{
-		"es"	"Tanque: Deshabilitado"
+		"es"	"Tank: Deshabilitado"
 	}
 	"TankStatic"
 	{
-		"es"	"Tanque: Estático"
+		"es"	"Tank: Estático"
 	}
 	"TankNone"
 	{
-		"es"	"Tanque: Ninguno"
+		"es"	"Tank: Ninguno"
 	}
 	"WitchDisabled"
 	{
-		"es"	"Bruja: Deshabilitada"
+		"es"	"Witch: Deshabilitada"
 	}
 	"WitchStatic"
 	{
-		"es"	"Bruja: Estática"
+		"es"	"Witch: Estática"
 	}
 	"WitchNone"
 	{
-		"es"	"Bruja: Ninguno"
+		"es"	"Witch: Ninguno"
 	}
 }
