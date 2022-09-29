@@ -1,35 +1,32 @@
 #pragma semicolon 1
+
 #pragma newdecls required
-
 #include <colors>
+#include <l4d2util>
+#include <left4dhooks>
 #include <sourcemod>
-
-enum
-{
-	L4D_TEAM_UNASSIGNED = 0,
-	L4D_TEAM_SPECTATOR,
-	L4D_TEAM_SURVIVOR,
-	L4D_TEAM_INFECTED,
-	L4D_TEAM_FOUR = 4
-}
 
 ConVar
 	hCvarCvarChange,
 	hCvarNameChange,
 	hCvarSpecNameChange,
-	hCvarSpecSeeChat;
+	hCvarSpecSeeChat,
+	hCvarSTVSeeChat,
+	hCvarSTVSeeTChat;
 bool
 	bCvarChange,
 	bNameChange,
 	bSpecNameChange,
-	bSpecSeeChat;
+	bSpecSeeChat,
+	bCvarSTVSeeChat,
+	bCvarSTVSeeTChat;
 
 public Plugin myinfo =
 {
 	name        = "BeQuiet",
 	author      = "Sir",
 	description = "Please be Quiet!",
-	version     = "1.33.8",
+	version     = "1.4",
 	url         = "https://github.com/SirPlease/SirCoding"
 
 
@@ -37,7 +34,6 @@ public Plugin myinfo =
 
 public void OnPluginStart()
 {
-	LoadTranslations("bequiet.phrases");
 	AddCommandListener(Say_Callback, "say");
 	AddCommandListener(TeamSay_Callback, "say_team");
 
@@ -50,16 +46,22 @@ public void OnPluginStart()
 	hCvarNameChange     = CreateConVar("bq_name_change_suppress", "1", "Silence Player name Changes.");
 	hCvarSpecNameChange = CreateConVar("bq_name_change_spec_suppress", "1", "Silence Spectating Player name Changes.");
 	hCvarSpecSeeChat    = CreateConVar("bq_show_player_team_chat_spec", "1", "Show Spectators Team chat?");
+	hCvarSTVSeeChat     = CreateConVar("bq_show_player_chat_stv", "0", "Show SourceTV General chat?");
+	hCvarSTVSeeTChat    = CreateConVar("bq_show_player_team_chat_stv", "0", "Show SourceTV Team chat?");
 
-	bCvarChange     = GetConVarBool(hCvarCvarChange);
-	bNameChange     = GetConVarBool(hCvarNameChange);
-	bSpecNameChange = GetConVarBool(hCvarSpecNameChange);
-	bSpecSeeChat    = GetConVarBool(hCvarSpecSeeChat);
+	bCvarChange      = GetConVarBool(hCvarCvarChange);
+	bNameChange      = GetConVarBool(hCvarNameChange);
+	bSpecNameChange  = GetConVarBool(hCvarSpecNameChange);
+	bSpecSeeChat     = GetConVarBool(hCvarSpecSeeChat);
+	bCvarSTVSeeChat  = GetConVarBool(hCvarSTVSeeChat);
+	bCvarSTVSeeTChat = GetConVarBool(hCvarSTVSeeTChat);
 
 	hCvarCvarChange.AddChangeHook(cvarChanged);
 	hCvarNameChange.AddChangeHook(cvarChanged);
 	hCvarSpecNameChange.AddChangeHook(cvarChanged);
 	hCvarSpecSeeChat.AddChangeHook(cvarChanged);
+	hCvarSTVSeeChat.AddChangeHook(cvarChanged);
+	hCvarSTVSeeTChat.AddChangeHook(cvarChanged);
 
 	AutoExecConfig(true, "bequiet");
 }
@@ -74,11 +76,30 @@ public Action Say_Callback(int client, char[] command, int args)
 		return Plugin_Handled;
 	}
 
-	if (IsClientSourceTV(client))
+	if (bCvarSTVSeeChat)
 	{
-		return Plugin_Handled;
+		char sChat[256];
+		GetCmdArgString(sChat, 256);
+		StripQuotes(sChat);
+		int ClientTeam = GetClientTeam(client);
+		int i          = 1;
+		while (i <= MaxClients)
+		{
+			if (IsValidClient(i) && IsClientSourceTV(i))    // Chat from STV
+			{
+				switch (ClientTeam)
+				{
+					case L4D_TEAM_SPECTATOR:
+						CPrintToChat(i, "{default}*SPEC* %N : %s", client, sChat);
+					case L4D_TEAM_SURVIVOR:
+						CPrintToChat(i, "{blue}%N {default}: %s", client, sChat);
+					case L4D_TEAM_INFECTED:
+						CPrintToChat(i, "{red}%N {default}: %s", client, sChat);
+				}
+			}
+			i++;
+		}
 	}
-
 	return Plugin_Continue;
 }
 
@@ -98,22 +119,32 @@ public Action TeamSay_Callback(int client, char[] command, int args)
 		GetCmdArgString(sChat, 256);
 		StripQuotes(sChat);
 		int ClientTeam = GetClientTeam(client);
-
-		if (ClientTeam != L4D_TEAM_SPECTATOR)
+		int i          = 1;
+		while (i <= MaxClients)
 		{
-			for (int ClientIndex = 1; ClientIndex <= MaxClients; ClientIndex++)
+			if (bCvarSTVSeeTChat && IsValidClient(i) && IsClientSourceTV(i))    // TeamChat from STV
 			{
-				if (IsValidClient(ClientIndex) && GetClientTeam(ClientIndex) == L4D_TEAM_SPECTATOR && !IsClientSourceTV(ClientIndex))    // TeamChat for Spect
+				switch (ClientTeam)
 				{
-					switch (ClientTeam)
-					{
-						case L4D_TEAM_SURVIVOR:
-							CPrintToChat(ClientIndex, "%t", "Survivor", client, sChat);
-						case L4D_TEAM_INFECTED:
-							CPrintToChat(ClientIndex, "%t", "Infected", client, sChat);
-					}
+					case L4D_TEAM_SPECTATOR:
+						CPrintToChat(i, "%t", "Spected", client, sChat);
+					case L4D_TEAM_SURVIVOR:
+						CPrintToChat(i, "%t", "Survivor", client, sChat);
+					case L4D_TEAM_INFECTED:
+						CPrintToChat(i, "%t", "Infected", client, sChat);
 				}
 			}
+			if (IsValidClient(i) && GetClientTeam(i) == L4D_TEAM_SPECTATOR && GetClientTeam(client) != L4D_TEAM_SPECTATOR && !IsClientSourceTV(i))    // TeamChat for Spect
+			{
+				switch (ClientTeam)
+				{
+					case L4D_TEAM_SURVIVOR:
+						CPrintToChat(i, "%t", "Survivor", client, sChat);
+					case L4D_TEAM_INFECTED:
+						CPrintToChat(i, "%t", "Infected", client, sChat);
+				}
+			}
+			i++;
 		}
 	}
 	return Plugin_Continue;
@@ -129,9 +160,10 @@ public Action Event_NameChange(Event event, const char[] name, bool dontBroadcas
 {
 	int clientid = event.GetInt("userid");
 	int client   = GetClientOfUserId(clientid);
+
 	if (IsValidClient(client))
 	{
-		if (bSpecNameChange && GetClientTeam(client) == L4D_TEAM_SPECTATOR)
+		if (GetClientTeam(client) == L4D_TEAM_SPECTATOR && bSpecNameChange)
 		{
 			return Plugin_Handled;
 		}
@@ -140,22 +172,25 @@ public Action Event_NameChange(Event event, const char[] name, bool dontBroadcas
 			return Plugin_Handled;
 		}
 	}
+
 	return Plugin_Continue;
 }
 
 public void cvarChanged(Handle convar, const char[] oldValue, const char[] newValue)
 {
-	bCvarChange     = hCvarCvarChange.BoolValue;
-	bNameChange     = hCvarNameChange.BoolValue;
-	bSpecNameChange = hCvarSpecNameChange.BoolValue;
-	bSpecSeeChat    = hCvarSpecSeeChat.BoolValue;
+	bCvarChange      = hCvarCvarChange.BoolValue;
+	bNameChange      = hCvarNameChange.BoolValue;
+	bSpecNameChange  = hCvarSpecNameChange.BoolValue;
+	bSpecSeeChat     = hCvarSpecSeeChat.BoolValue;
+	bCvarSTVSeeChat  = hCvarSTVSeeChat.BoolValue;
+	bCvarSTVSeeTChat = hCvarSTVSeeTChat.BoolValue;
 }
 
 stock bool IsValidClient(int client)
 {
-	if ((client > 0 && client <= MaxClients) && IsClientInGame(client) && IsClientConnected(client))
+	if (!IsValidClientIndex(client) || !IsClientInGame(client) || !IsClientConnected(client))
 	{
-		return true;
+		return false;
 	}
-	return false;
+	return true;
 }

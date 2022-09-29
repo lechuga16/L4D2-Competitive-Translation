@@ -43,15 +43,12 @@ Block Trolls
 Thirdpersonshoulder Block
 - Actualización de sintaxis
 
-BeQuiet
-- Se bloqueó la emisión de mensajes a sourcetv.
-
 1v1 SkeetStats
 - Actualización de sintaxis.
 
 Skill Detection (skeets, crowns, levels)
 - Actualización de sintaxis.
-- se agregó convar nuevos.
+- Se agregó convar nuevos.
 ```
 
 # === Alternativo ==
@@ -63,6 +60,9 @@ Hyper-V HUD Manager
 
 L4D2 Tank Facts Announce
 - Este complemento proviene de https://github.com/Target5150/MoYu_Server_Stupid_Plugins
+
+Please be Quiet!
+- Este complemento tiene agregado compatibilidad con SourceTV.
 ```
 
 ## Creditos:
