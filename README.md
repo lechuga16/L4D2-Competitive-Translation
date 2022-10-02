@@ -36,7 +36,7 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
 ```
 Checkpoint Rage Control
 - Actualización de sintaxis
-- Se añadió un gancho para anunciar información del control del Tank.
+- Se añadió un gancho para anunciar información del control del Tank en la saferoom.
 
 Block Trolls
 - Actualización de sintaxis
@@ -49,7 +49,7 @@ Thirdpersonshoulder Block
 
 Skill Detection (skeets, crowns, levels)
 - Actualización de sintaxis.
-- Se agregó convar nuevos.
+- Se agregó convar nuevos: sm_skill_report_old, sm_skill_report_rockname.
 ```
 
 # === Alternativo ==
