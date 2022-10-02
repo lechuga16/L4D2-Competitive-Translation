@@ -32,6 +32,7 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
 - Los complementos adicionales estarán en esta carpeta.
 
 # === L4D2 Competitive ===
+- Todos los complementos que se modifiquen adicionalmente a la traducción serán especificados:
 ```
 Checkpoint Rage Control
 - Actualización de sintaxis

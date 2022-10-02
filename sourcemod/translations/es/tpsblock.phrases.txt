@@ -1,13 +1,3 @@
-/*
- *	This plugin has included 'Colors':
- *	- Regular colors: {default}, {green} (yellow in L4D), {olive}.
- *	- {teamcolor}: replaces {red}, {blue} and {lightgreen} tags.
- *
- * 	- You can use only one team color (like lightgreen, red or blue) in the message.
- * 	- There must be at least one player in each team for proper red and blue colors working.
- * 	  Otherwise these tags will be replaced with green.
-*/
-
 "Phrases"
 {
 	"Cvar_Invalid"

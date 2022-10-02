@@ -7,41 +7,33 @@
 	"Usage"
 	{
 		"en"		"Usage: !8ball <question>"
-		"es"		"Uso: !8ball <pregunta>"
 	}
 	"Asked"
 	{
 		"en"		"{teamcolor}%N{default} Asked: {olive}%s{default}"
-		"es"		"{teamcolor}%N{default} Preguntó: {olive}%s{default}"
 	}
 	"WithYes"
 	{
 		"en"		"I'm going with {olive}Yes{default}!"
-		"es"		"Voy con un {olive}Sí{default}!"
 	}
 	"WithNo"
 	{
 		"en"		"I'm going with a {red}No{default}!"
-		"es"		"Voy con un {red}No{default}!"
 	}
 	"Yikes"
 	{
 		"en"		"Yikes. {red}No{default}!"
-		"es"		"Uff. {red}No{default}!"
 	}
 	"Sure"
 	{
 		"en"		"Uhhhhh... {olive}Sure{default}?"
-		"es"		"Uhhhhh... {olive}Por Supuesto{default}?"
 	}
 	"AbsolutelyNot"
 	{
 		"en"		"LOL {red}Absolutely Not{default}!"
-		"es"		"LOL {red}Absolutamente No{default}!"
 	}
 	"Yeah"
 	{
 		"en"		"You know what? {olive}Yeah{default}!"
-		"es"		"¿Sabes que? {olive}Sí{default}!"
 	}
 }
