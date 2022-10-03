@@ -28,28 +28,16 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
 - Los paneles y votaciones presentan problemas para traducir texto a clientes con idioma diferente. Como solución, algunas traducciones se presentaran el idioma del servidor.
 - Para configurar el idioma del servidor, es necesario modificar la variable 'ServerLang' en el archivo 'sourcemod/configs/core.cfg'.
 
-# Alternativo:
-- Los complementos adicionales estarán en esta carpeta.
+# Carpetas:
+- sourcemod: Complementos en los que se está trabajando, pueden estar un tiempo en esta carpeta para pruebas en servidores.
+- sourcemod_alternativo: Son complementos que no están en el repositorio 'L4D2-Competitive-Rework' o son versiones modificadas.
+- sourcemod_disponibles_sirpls: Son complementos que ya se encuentran en 'L4D2-Competitive-Rework'.
 
 # === L4D2 Competitive ===
 - Todos los complementos que se modifiquen adicionalmente a la traducción serán especificados:
 ```
-Checkpoint Rage Control
-- Actualización de sintaxis
-- Se añadió un gancho para anunciar información del control del Tank en la saferoom.
+--
 
-Block Trolls
-- Actualización de sintaxis
-
-Thirdpersonshoulder Block
-- Actualización de sintaxis
-
-1v1 SkeetStats
-- Actualización de sintaxis.
-
-Skill Detection (skeets, crowns, levels)
-- Actualización de sintaxis.
-- Se agregó convar nuevos: sm_skill_report_old, sm_skill_report_rockname.
 ```
 
 # === Alternativo ==
