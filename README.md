@@ -36,7 +36,8 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
 # === L4D2 Competitive ===
 - Todos los complementos que se modifiquen adicionalmente a la traducción serán especificados:
 ```
---
+L4D2 Auto-pause, Coinflip
+- Se actualizó la sintaxis
 
 ```
 
