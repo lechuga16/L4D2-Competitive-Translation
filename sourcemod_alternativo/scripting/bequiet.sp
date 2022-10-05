@@ -28,12 +28,11 @@ public Plugin myinfo =
 	description = "Please be Quiet!",
 	version     = "1.4",
 	url         = "https://github.com/SirPlease/SirCoding"
-
-
 }
 
 public void OnPluginStart()
 {
+	LoadTranslations("bequiet.phrases");
 	AddCommandListener(Say_Callback, "say");
 	AddCommandListener(TeamSay_Callback, "say_team");
 
