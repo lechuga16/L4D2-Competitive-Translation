@@ -1,0 +1,39 @@
+"Phrases"
+{
+	"OnlySpec"
+	{
+		"es"		"Solo los espectadores puede escuchar."
+	}
+	"PanelEnable"
+	{
+		"es"		"activado"
+	}
+	"PanelDisable"
+	{
+		"es"		"Desactivado"
+	}
+	"PanelStatus"
+	{
+		"es"		"Estado"
+	}
+	"Enable"
+	{
+		"es"		"{green}activado{default}"
+	}
+	"Disable"
+	{
+		"es"		"{green}Desactivado{default}"
+	}
+	"Usage"
+	{
+		"es"		"Uso: sm_listen <enable/disable/status>"
+	}
+	"ErrorFlags"
+	{
+		"es"		"Error: selección en banderas de voz."
+	}
+	"ErrorCookie"
+	{
+		"es"		"Error: cookie aún no almacenada en caché (inténtelo de nuevo en un momento)."
+	}
+}

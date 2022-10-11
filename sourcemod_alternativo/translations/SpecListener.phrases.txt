@@ -1,0 +1,47 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"[{olive}SpecListener{default}]"
+	}
+	"OnlySpec"
+	{
+		"en"		"Only spectator can listen."
+	}
+	"PanelTitle"
+	{
+		"en"		"SpecListener"
+	}
+	"PanelEnable"
+	{
+		"en"		"Enable"
+	}
+	"PanelDisable"
+	{
+		"en"		"Disable"
+	}
+	"PanelStatus"
+	{
+		"en"		"Status"
+	}
+	"Enable"
+	{
+		"en"		"{green}Enable{default}"
+	}
+	"Disable"
+	{
+		"en"		"{green}Disable{default}"
+	}
+	"Usage"
+	{
+		"en"		"Usage: sm_listen <enable/disable/status>"
+	}
+	"ErrorFlags"
+	{
+		"en"		"Error: section voice flags."
+	}
+	"ErrorCookie"
+	{
+		"en"		"Error: cookie not cached yet (try again in a bit)."
+	}
+}
