@@ -3,6 +3,6 @@
 	"Current"
 	{
 		"en"		"Current: {green}%d%%{default}"
-		"es"		"Recorrido: {green}%d%%{default}"
+		"es"		"Progreso: {green}%d%%{default}"
 	}
 }
