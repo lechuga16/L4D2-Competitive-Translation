@@ -7,16 +7,13 @@
 	"Heads"
 	{
 		"en"		"{lightgreen}%s{default} flipped a coin!\nIt's {green}Heads{default}!"
-		"es"		"¡{lightgreen}%s{default} tiró una moneda!\n¡Es {green}Cara{default}!"
 	}
 	"Tails"
 	{
 		"en"		"{lightgreen}%s{default} flipped a coin!\nIt's {green}Tails{default}!"
-		"es"		"¡{lightgreen}%s{default} tiró una moneda!\n¡Es {green}Cruz{default}!"
 	}
 	"rolled"
 	{
 		"en"		"{lightgreen}%s{default} rolled a {teamcolor}%d{default} sided die!\nIt's {green}%d{default}!"
-		"es"		"!{lightgreen}%s{default} eligió un número del 1 al {teamcolor}%d{default}!\n¡Es {green}%d{default}!"
 	}
 }
