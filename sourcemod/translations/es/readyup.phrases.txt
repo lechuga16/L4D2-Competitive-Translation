@@ -1,0 +1,105 @@
+"Phrases"
+{
+	// readyup/action.inc
+	"LiveCountdownBegin"
+	{
+		"es"		"¡Iniciando!\n ---------- \nPresiona F2|!nr para cancelar"
+	}
+	"RoundIsLive"
+	{
+		"es"		"¡La ronda a comenzado!"
+	}
+	"AutoStartNotEnoughPlayers"
+	{
+		"en"		"More players are required..."
+	}
+	"AutoStartWaiting"
+	{
+		"es"		"Esperando a los jugadores..."
+	}
+	"InitiateAutoStart"
+	{
+		"es"		"¡El juego comenzara automaticamente!"
+	}
+	"AutoStartCountdown"
+	{
+		"#format"	"{1:d}"
+		"es"		"El juego comienza en: {1}"
+	}
+	"LiveCountdownCancelled"
+	{
+		"es"		"¡Cuenta regresiva cancelada!"
+	}
+	// readyup/command.inc
+	"ForceStartAdmin"
+	{
+		"#format"	"{1:N}"
+		"es"		"[{green}!{default}] El {blue}inicio del juego{default} es {green}forzado{default} por el {blue}Admin{default} ({olive}{1}{default})"
+	}
+	"PanelHide"
+	{
+		"es"		"[{olive}Readyup{default}] El panel ahora esta {red}desactivado{default}"
+	}
+	"PanelShow"
+	{
+		"es"		"[{olive}Readyup{default}] El panel ahora esta {blue}activado{default}"
+	}
+	// readyup/panel.inc
+	"HintReady"
+	{
+		"es"		"Estás preparado\n ========== \nPresiona F2|!nr para cancelar"
+	}
+	"HintUnready"
+	{
+		"es"		"No estás preparado\n ========== \nPresiona F1|!r para confirmar"
+	}
+	"PanelSlots"
+	{
+		"en"		"▸ Servidor: %s \n▸ Espacios: %d/%d\n▸ Config: %s"
+	}
+	"PanelCommands"
+	{
+		"en"		"▸ Comandos:"
+	}
+	"PanelSurvivors"
+	{
+		"en"	"->%d. Superviviente%s"
+	}
+	"PanelInfected"
+	{
+		"en"	"->%d. Infectado%s"
+	}
+	"PanelCaster"
+	{
+		"en"	"->%d. Comentador%s"
+	}
+	"PanelSpectator"
+	{
+		"en"	"->%d. Espectador%s"
+	}
+	"PanelMany"
+	{
+		"en"	"**Muchos** (%d)"
+	}
+	// g_sDisruptReason[]
+	"Player marked unready"
+	{
+		"#format"	"{1:N}"
+		"es"		"[{green}!{default}] {green}¡Cuenta regresiva cancelada! {default}({teamcolor}{1}{default})"
+	}
+	"Player switched team"
+	{
+		"#format"	"{1:N}"
+		"es"		"[{green}!{default}] {green}¡Cuenta regresiva cancelada! {default}({teamcolor}{1} {olive}se cambio de equipo{default})"
+	}
+	"Player disconnected"
+	{
+		"#format"	"{1:N}"
+		"es"		"[{green}!{default}] {green}¡Cuenta regresiva cancelada! {default}({teamcolor}{1} {green}se a desconectado{default})"
+	}
+	"Admin aborted"
+	{
+		"#format"	"{1:N}"
+		"es"		"[{green}!{default}] {green}¡El inicio forzado fue cancelado! {default}({olive}{1}{default})"
+	}
+}

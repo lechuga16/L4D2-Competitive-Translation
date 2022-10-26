@@ -1,0 +1,105 @@
+"Phrases"
+{
+	// readyup/action.inc
+	"LiveCountdownBegin"
+	{
+		"en"		"Going live!\nSay !unready / Press F2 to cancel"
+	}
+	"RoundIsLive"
+	{
+		"en"		"Round is live!"
+	}
+	"AutoStartNotEnoughPlayers"
+	{
+		"en"		"More players are required..."
+	}
+	"AutoStartWaiting"
+	{
+		"en"		"Waiting for loading players..."
+	}
+	"InitiateAutoStart"
+	{
+		"en"		"Game will automatically start!"
+	}
+	"AutoStartCountdown"
+	{
+		"#format"	"{1:d}"
+		"en"		"Game starts in: {1}"
+	}
+	"LiveCountdownCancelled"
+	{
+		"en"		"Countdown Cancelled!"
+	}
+	// readyup/command.inc
+	"ForceStartAdmin"
+	{
+		"#format"	"{1:N}"
+		"en"		"[{green}!{default}] {blue}Game {default}start is {green}forced {default}by {blue}Admin {default}({olive}{1}{default})"
+	}
+	"PanelHide"
+	{
+		"en"		"[{olive}Readyup{default}] Panel is now {red}off{default}"
+	}
+	"PanelShow"
+	{
+		"en"		"[{olive}Readyup{default}] Panel is now {blue}on{default}"
+	}
+	// readyup/panel.inc
+	"HintReady"
+	{
+		"en"		"You are ready.\nSay !unready / Press F2 to unready."
+	}
+	"HintUnready"
+	{
+		"en"		"You are not ready.\nSay !ready / Press F1 to ready up."
+	}
+	"PanelSlots"
+	{
+		"en"		"▸ Server: %s \n▸ Slots: %d/%d\n▸ Config: %s"
+	}
+	"PanelCommands"
+	{
+		"en"		"▸ Commands:"
+	}
+	"PanelSurvivors"
+	{
+		"en"	"->%d. Survivors%s"
+	}
+	"PanelInfected"
+	{
+		"en"	"->%d. Infected%s"
+	}
+	"PanelCaster"
+	{
+		"en"	"->%d. Caster%s"
+	}
+	"PanelSpectator"
+	{
+		"en"	"->%d. Spectator%s"
+	}
+	"PanelMany"
+	{
+		"en"	"**Many** (%d)"
+	}
+	// g_sDisruptReason[]
+	"Player marked unready"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {green}marked unready{default})"
+	}
+	"Player switched team"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {olive}switched team{default})"
+	}
+	"Player disconnected"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {green}disconnected{default})"
+	}
+	"Admin aborted"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Force Start Aborted! {default}({olive}{1} {green}issued{default})"
+	}
+}

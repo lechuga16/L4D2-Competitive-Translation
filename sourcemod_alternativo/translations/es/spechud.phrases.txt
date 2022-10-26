@@ -174,11 +174,11 @@
 	}
 	"Current"
 	{
-		"es"		"%s | Actual: %i%%"
+		"es"		"%s | Progreso: %i%%"
 	}
 	"Current2"
 	{
-		"es"		"Actual: %i%%"
+		"es"		"Progreso: %i%%"
 	}
 	"TankSelection"
 	{
