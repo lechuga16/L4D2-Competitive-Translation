@@ -240,7 +240,7 @@ void CancelFullReady(int client, disruptType type)
 			SetClientFrozen(client, false);
 		
 		PrintHintTextToAll("%t", "LiveCountdownCancelled");
-		CPrintToChatAllEx(client, "%t", g_sDisruptReason[type], client);
+		CPrintToChatAllEx(client, "%t %t", "Tag", g_sDisruptReason[type], client);
 		
 		if (g_hCountdownCancelledForward.FunctionCount)
 		{

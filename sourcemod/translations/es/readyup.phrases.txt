@@ -3,15 +3,20 @@
 	// readyup/action.inc
 	"LiveCountdownBegin"
 	{
-		"es"		"¡Iniciando!\n ---------- \nPresiona F2|!nr para cancelar"
+		"es"		"¡Iniciando!\n ────────── \nPresiona F2|!nr para cancelar"
 	}
 	"RoundIsLive"
 	{
 		"es"		"¡La ronda a comenzado!"
 	}
+	"LiveCountdown"
+	{
+		"#format"	"{1:d}"
+		"es"		"Iniciando en: {1}\nPresiona F2|!nr para cancelar"
+	}
 	"AutoStartNotEnoughPlayers"
 	{
-		"en"		"More players are required..."
+		"es"		"Se requieren más jugadores..."
 	}
 	"AutoStartWaiting"
 	{
@@ -34,72 +39,72 @@
 	"ForceStartAdmin"
 	{
 		"#format"	"{1:N}"
-		"es"		"[{green}!{default}] El {blue}inicio del juego{default} es {green}forzado{default} por el {blue}Admin{default} ({olive}{1}{default})"
+		"es"		"El {blue}inicio del juego{default} es {green}forzado{default} por el {blue}Admin{default} ({olive}{1}{default})"
 	}
 	"PanelHide"
 	{
-		"es"		"[{olive}Readyup{default}] El panel ahora esta {red}desactivado{default}"
+		"es"		"El panel ahora esta {red}desactivado{default}"
 	}
 	"PanelShow"
 	{
-		"es"		"[{olive}Readyup{default}] El panel ahora esta {blue}activado{default}"
+		"es"		"El panel ahora esta {blue}activado{default}"
 	}
 	// readyup/panel.inc
 	"HintReady"
 	{
-		"es"		"Estás preparado\n ========== \nPresiona F2|!nr para cancelar"
+		"es"		"Estás preparado\n ────────── \nPresiona F2|!nr para cancelar"
 	}
 	"HintUnready"
 	{
-		"es"		"No estás preparado\n ========== \nPresiona F1|!r para confirmar"
+		"es"		"No estás preparado\n ────────── \nPresiona F1|!r para confirmar"
 	}
 	"PanelSlots"
 	{
-		"en"		"▸ Servidor: %s \n▸ Espacios: %d/%d\n▸ Config: %s"
+		"es"		"▸ Servidor: %s \n▸ Espacios: %d/%d\n▸ Config: %s"
 	}
 	"PanelCommands"
 	{
-		"en"		"▸ Comandos:"
+		"es"		"▸ Comandos:"
 	}
 	"PanelSurvivors"
 	{
-		"en"	"->%d. Superviviente%s"
+		"es"	"->%d. Superviviente%s"
 	}
 	"PanelInfected"
 	{
-		"en"	"->%d. Infectado%s"
+		"es"	"->%d. Infectado%s"
 	}
 	"PanelCaster"
 	{
-		"en"	"->%d. Comentador%s"
+		"es"	"->%d. Comentador%s"
 	}
 	"PanelSpectator"
 	{
-		"en"	"->%d. Espectador%s"
+		"es"	"->%d. Espectador%s"
 	}
 	"PanelMany"
 	{
-		"en"	"**Muchos** (%d)"
+		"es"	"**Muchos** (%d)"
 	}
 	// g_sDisruptReason[]
 	"Player marked unready"
 	{
 		"#format"	"{1:N}"
-		"es"		"[{green}!{default}] {green}¡Cuenta regresiva cancelada! {default}({teamcolor}{1}{default})"
+		"es"		"{green}¡Cuenta regresiva cancelada!{default} ({teamcolor}{1}{default})"
 	}
 	"Player switched team"
 	{
 		"#format"	"{1:N}"
-		"es"		"[{green}!{default}] {green}¡Cuenta regresiva cancelada! {default}({teamcolor}{1} {olive}se cambio de equipo{default})"
+		"es"		"{green}¡Cuenta regresiva cancelada!{default} ({teamcolor}{1} {olive}se cambio de equipo{default})"
 	}
 	"Player disconnected"
 	{
 		"#format"	"{1:N}"
-		"es"		"[{green}!{default}] {green}¡Cuenta regresiva cancelada! {default}({teamcolor}{1} {green}se a desconectado{default})"
+		"es"		"{green}¡Cuenta regresiva cancelada!{default} ({teamcolor}{1} {green}se a desconectado{default})"
 	}
 	"Admin aborted"
 	{
 		"#format"	"{1:N}"
-		"es"		"[{green}!{default}] {green}¡El inicio forzado fue cancelado! {default}({olive}{1}{default})"
+		"es"		"{green}¡El inicio forzado fue cancelado!{default} ({olive}{1}{default})"
 	}
 }

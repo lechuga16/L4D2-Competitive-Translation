@@ -1,5 +1,9 @@
 "Phrases"
 {
+	"Tag"
+	{
+		"en"		"[{green}!{default}]"
+	}
 	// readyup/action.inc
 	"LiveCountdownBegin"
 	{
@@ -8,6 +12,11 @@
 	"RoundIsLive"
 	{
 		"en"		"Round is live!"
+	}
+	"LiveCountdown"
+	{
+		"#format"	"{1:d}"
+		"en"		"Live in: {1}\nSay !unready / Press F2 to cancel"
 	}
 	"AutoStartNotEnoughPlayers"
 	{
@@ -34,15 +43,15 @@
 	"ForceStartAdmin"
 	{
 		"#format"	"{1:N}"
-		"en"		"[{green}!{default}] {blue}Game {default}start is {green}forced {default}by {blue}Admin {default}({olive}{1}{default})"
+		"en"		"{blue}Game{default} start is {green}forced{default} by {blue}Admin{default} ({olive}{1}{default})"
 	}
 	"PanelHide"
 	{
-		"en"		"[{olive}Readyup{default}] Panel is now {red}off{default}"
+		"en"		"Panel is now {red}off{default}"
 	}
 	"PanelShow"
 	{
-		"en"		"[{olive}Readyup{default}] Panel is now {blue}on{default}"
+		"en"		"Panel is now {blue}on{default}"
 	}
 	// readyup/panel.inc
 	"HintReady"
@@ -85,21 +94,21 @@
 	"Player marked unready"
 	{
 		"#format"	"{1:N}"
-		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {green}marked unready{default})"
+		"en"		"{green}Countdown Cancelled!{default} ({teamcolor}{1} {green}marked unready{default})"
 	}
 	"Player switched team"
 	{
 		"#format"	"{1:N}"
-		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {olive}switched team{default})"
+		"en"		"{green}Countdown Cancelled!{default} ({teamcolor}{1} {olive}switched team{default})"
 	}
 	"Player disconnected"
 	{
 		"#format"	"{1:N}"
-		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {green}disconnected{default})"
+		"en"		"{green}Countdown Cancelled!{default} ({teamcolor}{1} {green}disconnected{default})"
 	}
 	"Admin aborted"
 	{
 		"#format"	"{1:N}"
-		"en"		"{default}[{green}!{default}] {green}Force Start Aborted! {default}({olive}{1} {green}issued{default})"
+		"en"		"{green}Force Start Aborted!{default} ({olive}{1} {green}issued{default})"
 	}
 }
