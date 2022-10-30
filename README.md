@@ -39,6 +39,8 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
 L4D2 Auto-pause, Coinflip
 - Se actualizó la sintaxis
 
+pause, l4d2_stats, checkpoint-rage-control
+- Correcciones.
 ```
 
 # === Alternativo ==
