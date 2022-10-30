@@ -35,6 +35,15 @@
 	{
 		"es"		"¡Cuenta regresiva cancelada!"
 	}
+	"CountUnReady"
+	{
+		"#format"	"{1:d}{2:d}"	// 1:GetUnReadyCount(client), 2:l4d_ready_unready_limit.IntValue
+		"en"		" [{green}{1}{default}/{green}{2}{default}]"
+	}
+	"UnReadyLimit"
+	{
+		"en"	"Has alcanzado tu {red}límite de cancelaciones{default} [{green}%d{default}]"
+	}
 	// readyup/command.inc
 	"ForceStartAdmin"
 	{
@@ -60,7 +69,8 @@
 	}
 	"PanelSlots"
 	{
-		"es"		"▸ Servidor: %s \n▸ Espacios: %d/%d\n▸ Config: %s"
+		"#format"	"{1:s},{2:d},{3:d},{4:s}"	// 1:ServerName, 2:GetSeriousClientCount(), 3:FindConVar("sv_maxplayers").IntValue, 4:cfgName
+		"es"		"▸ Servidor: {1} \n▸ Espacios: {2}/{3}\n▸ Config: {4}"
 	}
 	"PanelCommands"
 	{
@@ -68,29 +78,33 @@
 	}
 	"PanelSurvivors"
 	{
-		"es"	"->%d. Superviviente%s"
+		"#format"	"{1:d},{2:s}"	// 1:++textCount, 2:isTeamReadyMode ? teamReadySymbol[survivorReady] : ""
+		"es"		"->{1}. Superviviente{2}"
 	}
 	"PanelInfected"
 	{
-		"es"	"->%d. Infectado%s"
+		"#format"	"{1:d},{2:s}"	// 1:++textCount, 2:isTeamReadyMode ? teamReadySymbol[survivorReady] : ""
+		"es"		"->{1}. Infectado{2}"
 	}
 	"PanelCaster"
 	{
-		"es"	"->%d. Comentador%s"
+		"#format"	"{1:d},{2:s}"	// 1:++textCount, 2:casterCount > 1 ? "s" : ""
+		"es"		"->{1}. Comentador{2}"
 	}
 	"PanelSpectator"
 	{
-		"es"	"->%d. Espectador%s"
+		"#format"	"{1:d},{2:s}"	// 1:++textCount, 2:specCount > 1 ? "s" : ""
+		"es"		"->{1}. Espectador{2}"
 	}
 	"PanelMany"
 	{
-		"es"	"**Muchos** (%d)"
+		"es"		"**Muchos** (%d)"
 	}
 	// g_sDisruptReason[]
 	"Player marked unready"
 	{
-		"#format"	"{1:N}"
-		"es"		"{green}¡Cuenta regresiva cancelada!{default} ({teamcolor}{1}{default})"
+		"#format"	"{1:N}{2:s}"
+		"es"		"{green}¡Cuenta regresiva cancelada!{default} ({teamcolor}{1}{default}){2}"
 	}
 	"Player switched team"
 	{
