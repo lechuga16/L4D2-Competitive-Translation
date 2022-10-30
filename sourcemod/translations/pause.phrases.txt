@@ -11,7 +11,7 @@
 	"PauseCountFormat"
 	{
 		"#format"   "{1:d},{2:d}" // 1:PauseCount(client), 2:pauseLimitCvar.IntValue
-		"en"		" [{green}{1}{default}/{green}{2}{default]."
+		"en"		" [{green}{1}{default}/{green}{2}{default}]."
 	}
 	"PauseCommand"
 	{
@@ -83,7 +83,7 @@
 	// AddPauseCount
 	"PauseLimit"
 	{
-		"en"		"You have reached your pause limit [{green}%d{default}]."
+		"en"		"You have reached your {red}pause limit{default} [{green}%d{default}]."
 	}
 	// AttemptPause
 	"PauseDeferred"
@@ -161,7 +161,7 @@
 	// InitiateLiveCountdown
 	"CountdownCancelNotify"
 	{
-		"en"		"Say {olive}!unready {default}to cancel"
+		"en"		"Say {olive}!unready{default} to cancel"
 	}
 	"GameisLive"
 	{
@@ -174,7 +174,7 @@
 	// CancelFullReady
 	"CountdownCancelled"
 	{
-		"en"		"{olive}%N {default}cancelled the countdown!"
+		"en"		"{olive}%N{default} cancelled the countdown!"
 	}
 	// Callvote_Callback
 	"CallvoteNoSpec"

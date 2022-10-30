@@ -7,7 +7,7 @@
 	"PauseCountFormat"
 	{
 		"#format"   "{1:d},{2:d}" // 1:PauseCount(client), 2:pauseLimitCvar.IntValue
-		"en"		" [{green}{1}{default}/{green}{2}{default]."
+		"en"		" [{green}{1}{default}/{green}{2}{default}]."
 	}
 	"PauseCommand"
 	{
@@ -30,7 +30,7 @@
 	}
 	"ForcePause"
 	{
-		"es"		"Una pausa forzada, {green}emitida{default} por el {blue}Admin{default} ({olive}%N{default})"
+		"es"		"{green}Pausa forzada{default} por el {blue}Admin{default} ({olive}%N{default})"
 	}
 	// Unpause_Cmd
 	"UnpauseSurvivors"
@@ -79,7 +79,7 @@
 	// AddPauseCount
 	"PauseLimit"
 	{
-		"es"		"Has alcanzado tu límite de pausas [{green}%d{default}]."
+		"es"		"Has alcanzado tu {red}límite de pausas{default} [{green}%d{default}]."
 	}
 	// AttemptPause
 	"PauseDeferred"
