@@ -39,6 +39,12 @@ Los complementos tendran incluida la libreria [Color](https://forums.alliedmods.
 L4D2 Auto-pause, Coinflip
 - Se actualizó la sintaxis
 
+Readyup
+- Se agregó un contador de cancelaciones.
+- Se agregó un convar que define los límites de cancelaciones.
+- Se realizaron traducciones de los paneles.
+- El formato de la fecha en el panel será definido por sm_datetime_format.
+
 pause, l4d2_stats, checkpoint-rage-control
 - Correcciones.
 ```
