@@ -47,6 +47,11 @@ Readyup
 
 pause, l4d2_stats, checkpoint-rage-control
 - Correcciones.
+
+survivor_mvp
+- Sintaxis
+- Se agregó archivo .inc
+- Se agregó complemento para testear el .inc
 ```
 
 # === Alternativo ==
