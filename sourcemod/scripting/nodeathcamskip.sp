@@ -20,8 +20,7 @@ public Plugin myinfo =
 
 }
 
-public void
-	OnPluginStart()
+public void OnPluginStart()
 {
 	LoadTranslation("nodeathcamskip.phrases");
 
