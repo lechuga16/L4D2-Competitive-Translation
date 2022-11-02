@@ -266,19 +266,24 @@ bool IsTankDying()
 void PrintRemainingHealth()
 {
 	bPrintedHealth = true;
-	if (!g_bEnabled) return;
+	if (!g_bEnabled)
+		return;
 	int tankclient = GetTankClient();
-	if (!tankclient) return;
+	if (!tankclient)
+		return;
 
-	char name[MAX_NAME_LENGTH];
-	if (IsFakeClient(tankclient)) name = "AI";
-	else GetClientName(tankclient, name, sizeof(name));
-	CPrintToChatAll("{default}[{green}!{default}] {blue}Tank {default}({olive}%s{default}) had {green}%d {default}health remaining", name, g_iLastTankHealth);
+	char
+		sName[MAX_NAME_LENGTH],
+		sIAName[8];
+	Format(sIAName, sizeof(sIAName), "%t", "AI");
+	GetClientName(tankclient, sName, sizeof(sName));
+	CPrintToChatAll("%t %t", "Tag", "HealthRemaining", IsFakeClient(tankclient) ? sIAName : sName, g_iLastTankHealth);
 }
 
 void PrintTankDamage()
 {
-	if (!g_bEnabled) return;
+	if (!g_bEnabled)
+		return;
 
 	if (!bPrintedHealth)
 	{
@@ -286,13 +291,17 @@ void PrintTankDamage()
 		{
 			if (g_iWasTank[i] > 0)
 			{
-				char name[MAX_NAME_LENGTH];
-				GetClientName(i, name, sizeof(name));
-				CPrintToChatAll("{default}[{green}!{default}] {blue}Damage {default}dealt to {blue}Tank {default}({olive}%s{default})", name);
+				char sName[MAX_NAME_LENGTH];
+				GetClientName(i, sName, sizeof(sName));
+				CPrintToChatAll("%t %t", "Tag", "DealtToTank", sName);
 				g_iWasTank[i] = 0;
 			}
 			else if (g_iWasTankAI > 0)
-				CPrintToChatAll("{default}[{green}!{default}] {blue}Damage {default}dealt to {blue}Tank {default}({olive}AI{default})");
+			{
+				char sIAName[8];
+				Format(sIAName, sizeof(sIAName), "%t", "AI");
+				CPrintToChatAll("%t %t", "Tag", "DealtToTank", sIAName);
+			}
 			g_iWasTankAI = 0;
 		}
 	}
@@ -351,7 +360,7 @@ void PrintTankDamage()
 		{
 			if (IsClientInGame(i))
 			{
-				CPrintToChat(i, "{blue}[{default}%d{blue}] ({default}%i%%{blue}) {olive}%N", damage, percent_damage, client);
+				CPrintToChat(i, "%t", "PercentDamage", damage, percent_damage, client);
 			}
 		}
 	}
