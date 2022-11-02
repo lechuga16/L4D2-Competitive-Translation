@@ -60,8 +60,7 @@ enum ZClass {
 	ZClass_Tank    = 8
 }
 
-public void
-	OnPluginStart()
+public void OnPluginStart()
 {
 	// Load translations (for targeting player)
 	LoadTranslations("common.phrases");

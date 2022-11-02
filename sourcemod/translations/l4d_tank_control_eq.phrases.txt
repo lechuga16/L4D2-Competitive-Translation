@@ -3,41 +3,33 @@
 	"Tag_Selecion"
 	{
 		"en"		"{red}<{default}Tank Selection{red}>{default}"
-		"es"		"{red}<{default}Selección de Tank{red}>{default}"
 	}
 	"Tag_Rage"
 	{
 		"en"		"{red}<{default}Tank Rage{red}>{default}"
-		"es"		"{red}<{default}Ira del Tank{red}>{default}"
 	}
 	"YouBecomeTank"
 	{
 		"en"		"{green}You{default} will become the {red}Tank{default}!"
-		"es"		"¡{green}Tu{default} te convertirás en el {red}Tank{default}!"
 	}
 	"BecomeTank"
 	{
 		"en"		"{olive}%s{default} will become the {red}Tank{default}!"
-		"es"		"{olive}%s{default} se convertirá en el {rojo}Tank{default}!"
 	}
 	"UnableGiveTank"
 	{
 		"en"		"[{olive}SM{default}] %s not on infected. Unable to give tank"
-		"es"		"[{olive}SM{default}] %s no es infectado. No se puede dar el Tank"
 	}
 	"Hit_RageMeterRefilled"
 	{
 		"en"		"Rage Meter Refilled"
-		"es"		"Medidor de ira Recargado"
 	}
 	"YouRageMeterRefilled"
 	{
 		"en"		"{olive}Rage Meter {red}Refilled{default}"
-		"es"		"{olive}Medidor de ira {red}Recargado{default}"
 	}
 	"RageMeterRefilled"
 	{
 		"en"		"({green}%N{default}'s) {olive}Rage Meter {red}Refilled"
-		"es"		"({green}%N{default}'s) {olive}Medidor de ira {red}Recargado"
 	}
 }
