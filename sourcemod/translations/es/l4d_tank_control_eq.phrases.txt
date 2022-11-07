@@ -14,7 +14,7 @@
 	}
 	"BecomeTank"
 	{
-		"es"		"{olive}%s{default} se convertirá en el {rojo}Tank{default}!"
+		"es"		"{olive}%s{default} se convertirá en el {red}Tank{default}!"
 	}
 	"UnableGiveTank"
 	{
