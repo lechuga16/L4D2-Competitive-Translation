@@ -7,21 +7,17 @@
 	"DeathTimer"
 	{
 		"en"		"{olive}%N{default} tried skipping the Death Timer."
-		"es"		"{olive}%N{default} intentó evadir el cronómetro de muerte."
 	}
 	"UnableToJoin"
 	{
 		"en"		"You will be unable to join the Team for {red}%.1f{default} Seconds."
-		"es"		"No podrás unirte al equipo por {red}%.1f{default} segundos."
 	}
 	"Moved"
 	{
 		"en"		"You will be moved automatically."
-		"es"		"Serás movido automáticamente."
 	}
 	"SlotsReserved"
 	{
 		"en"		"This team currently has slots {olive}reserved{default}."
-		"es"		"Este equipo actualmente tiene espacios {olive}reservados{default}."
 	}
 }
