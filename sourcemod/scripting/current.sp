@@ -20,7 +20,7 @@ public Plugin myinfo =
 
 public void OnPluginStart()
 {
-	LoadTranslations("current.phrases");
+	LoadTranslation("current.phrases");
 	g_hVsBossBuffer = FindConVar("versus_boss_buffer");
 
 	RegConsoleCmd("sm_cur", CurrentCmd);
@@ -60,4 +60,24 @@ float GetMaxSurvivorCompletion()
 	}
 
 	return (flow / L4D2Direct_GetMapMaxFlowDistance());
+}
+
+/**
+ * Check if the translation file exists
+ *
+ * @param translation	Translation name.
+ * @noreturn
+ */
+stock void LoadTranslation(const char[] translation)
+{
+	char
+		sPath[PLATFORM_MAX_PATH],
+		sName[64];
+
+	Format(sName, sizeof(sName), "translations/%s.txt", translation);
+	BuildPath(Path_SM, sPath, sizeof(sPath), sName);
+	if (!FileExists(sPath))
+		SetFailState("Missing translation file %s.txt", translation);
+
+	LoadTranslations(translation);
 }
